@@ -5,8 +5,8 @@
       "args": ["-y", "@automattic/mcp-wordpress-remote@latest"],
       "env": {
         "WP_API_URL": "https://outreachstudy.eu/wp-json/mcp/mcp-adapter-default-server",
-        "WP_API_USERNAME": "YOUR_WORDPRESS_USERNAME",
-        "WP_API_PASSWORD": "REPLACE_WITH_YOUR_WORDPRESS_TOKEN_LOCALLY"
+        "WP_API_USERNAME": "sofyanebarakat@gmail.com",
+        "WP_API_PASSWORD": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL291dHJlYWNoc3R1ZHkuZXUiLCJpYXQiOjE3Nzc1NDcwNzksImV4cCI6MTc3OTI3NTA3OSwidXNlcl9pZCI6MSwianRpIjoiSVAxMDRad2pYTW5SenFCdm9SMGFuV2ZSMzJQdVlybnYifQ.5lSSjZRQ2VnOt2aesgKOcAAQfKpCKU-Sv8mcWEMBEhI"
       }
     }
   }

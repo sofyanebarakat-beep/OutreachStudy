@@ -1,0 +1,7 @@
+{
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "markdown.preview.breaks": true
+}

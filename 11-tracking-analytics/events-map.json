@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "event": "lead_form_submit",
+      "trigger": "Form thank-you page or submit success",
+      "value": "Lead"
+    },
+    {
+      "event": "whatsapp_click",
+      "trigger": "Click on WhatsApp CTA",
+      "value": "Lead intent"
+    },
+    {
+      "event": "consultation_booked",
+      "trigger": "Booking confirmation",
+      "value": "Qualified lead"
+    },
+    {
+      "event": "application_submitted",
+      "trigger": "CRM status change",
+      "value": "Sales opportunity"
+    },
+    {
+      "event": "enrollment_confirmed",
+      "trigger": "Payment/enrollment confirmation",
+      "value": "Revenue"
+    }
+  ]
+}

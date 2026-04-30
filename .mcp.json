@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wordpress-mcp": {
+      "type": "http",
+      "url": "https://outreachstudy.eu/wp-json/wp/v2/wpmcp/streamable",
+      "headers": {
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL291dHJlYWNoc3R1ZHkuZXUiLCJpYXQiOjE3Nzc1NDg0OTYsImV4cCI6MTc3ODE1MzI5NiwidXNlcl9pZCI6MSwianRpIjoiUk1OSVN5dmNHbklzM25oUUozUTVRVXhpall4ZXIwdVEifQ.DfvnWgE75m2fKMXXfshYs2_EUge9us-ElbLolz5LTOs"
+      }
+    }
+  }
+}

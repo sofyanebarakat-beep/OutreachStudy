@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "wordpress-mcp": {
+      "command": "npx",
+      "args": ["-y", "@automattic/mcp-wordpress-remote@latest"],
+      "env": {
+        "WP_API_URL": "https://outreachstudy.eu/wp-json/mcp/mcp-adapter-default-server",
+        "WP_API_USERNAME": "YOUR_WORDPRESS_USERNAME",
+        "WP_API_PASSWORD": "REPLACE_WITH_YOUR_WORDPRESS_TOKEN_LOCALLY"
+      }
+    }
+  }
+}

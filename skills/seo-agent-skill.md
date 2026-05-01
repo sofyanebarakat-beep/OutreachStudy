@@ -75,19 +75,31 @@ Your role is to APPLY these skills to create high-ranking, conversion-focused ar
 ## 5. INTERNAL LINKING SKILL
 
 * Add 5–10 internal links
-* Link to relevant pages:
+* Only add internal links to pages that already exist on OutreachStudy.eu.
+* Do NOT invent internal URLs, slugs, categories, or blog links.
+* Before adding an internal link, confirm the exact page URL exists from one of these sources:
 
-  * Study in Malta
-  * Visa
-  * Cost
-  * Accommodation
-  * Contact
+  * Existing website sitemap or WordPress pages/posts
+  * Existing local website structure files
+  * User-provided URL list
+  * A previously verified OutreachStudy.eu URL
+* If a relevant internal page is not confirmed to exist, do not link to it. Mention it as a suggested future page in WordPress Notes instead.
+* Prefer confirmed relevant pages such as:
+
+  * `https://outreachstudy.eu/study-in-malta/`
+  * `https://outreachstudy.eu/english-courses-in-malta/`
+  * `https://outreachstudy.eu/malta-student-visa-guide/`
+  * `https://outreachstudy.eu/cost-of-studying-in-malta/`
+  * `https://outreachstudy.eu/student-accommodation-malta/`
+  * `https://outreachstudy.eu/contact/`
+  * `https://apply.outreachstudy.eu/`
 * Use natural anchor text
 * Avoid orphan pages
 * Style every visible internal link in the article body with bold text, blue color, and a light blue background.
+* All visible internal links in the post body must open in a new browser tab.
 * For WordPress HTML/Gutenberg output, use this link format:
 
-  * `<a href="URL" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">ANCHOR TEXT</a>`
+  * `<a href="URL" target="_blank" rel="noopener noreferrer" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">ANCHOR TEXT</a>`
 
 ---
 
@@ -96,19 +108,19 @@ Your role is to APPLY these skills to create high-ranking, conversion-focused ar
 * Add 2–5 authority external links
 * Use trusted sources
 * Style every visible external link in the article body with bold text, blue color, and a light blue background.
+* All visible external links in the post body must open in a new browser tab.
 * Use the same WordPress HTML link style as internal links:
 
-  * `<a href="URL" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">ANCHOR TEXT</a>`
+  * `<a href="URL" target="_blank" rel="noopener noreferrer" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">ANCHOR TEXT</a>`
 
 ---
 
 ## 7. IMAGE SEO SKILL
 
-* Suggest:
-
-  * Featured image
-  * 5–8 supporting images
-* For each image include:
+* Generate or request ONLY the featured image for WordPress.
+* Do not generate supporting images unless the user explicitly asks.
+* Supporting images may be suggested in the Image Plan, but mark them as "manual add later".
+* For the featured image include:
 
   * Filename (SEO optimized)
   * ALT text (descriptive + keyword)
@@ -127,6 +139,7 @@ Your role is to APPLY these skills to create high-ranking, conversion-focused ar
   * Avoid text inside the image unless specifically requested
   * Avoid generic stock-photo feeling, dark filters, blurry backgrounds, or unrelated visuals
 * For every post, include a "Featured Image Generation Prompt" that can be used with ChatGPT/image generation.
+* If creating a WordPress draft, upload/set only the featured image. Do not insert generated supporting images into the post body unless the user asks.
 * The image prompt must describe:
 
   * Subject
@@ -270,15 +283,15 @@ You MUST:
 
 # 🔗 LINK STYLING RULE (CRITICAL)
 
-For every article, all visible internal links, external links, and CTA links MUST be styled.
+For every article, all visible internal links, external links, and CTA links MUST be styled and open in a new browser tab.
 
 When producing WordPress-ready HTML or Gutenberg content, every visible link must use:
 
-`style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;"`
+`target="_blank" rel="noopener noreferrer" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;"`
 
 Example:
 
-`<a href="https://outreachstudy.eu/study-in-malta/" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">study in Malta</a>`
+`<a href="https://outreachstudy.eu/study-in-malta/" target="_blank" rel="noopener noreferrer" style="font-weight:700;color:#0057c2;background-color:#eaf3ff;padding:0 3px;border-radius:3px;text-decoration:underline;">study in Malta</a>`
 
 Do not apply this styling to raw URLs inside schema markup. Apply it only to visible article links.
 
@@ -287,6 +300,8 @@ Do not apply this styling to raw URLs inside schema markup. Apply it only to vis
 # 🖼️ FEATURED IMAGE GENERATION RULE (CRITICAL)
 
 For every WordPress blog post, create or request a ChatGPT-generated featured image.
+
+Generate, upload, or insert only the featured image. Supporting images are manual and should only be listed as suggestions unless the user explicitly asks to generate them.
 
 The featured image must be:
 

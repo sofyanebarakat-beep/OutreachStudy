@@ -1,10 +1,97 @@
-Metric,Target,Actual,Period,Notes
-Website sessions,5000,,Monthly,
-Landing page conversion rate,8%,,Weekly,
-Leads,300,,Monthly,
-Cost per lead,10,,Weekly,
-Qualified lead rate,35%,,Weekly,
-Consultations booked,80,,Monthly,
-Application conversion rate,20%,,Monthly,
-Enrollment conversion rate,8%,,Monthly,
-WhatsApp response time,<15 minutes,,Daily,
+Category,Metric,Formula,Daily_Target,Weekly_Target,Monthly_Target,Red_Flag,Benchmark,Check_Frequency,Notes
+EXECUTIVE,Total Leads,Sum of all channel registrations,5-10,35-75,100-300,<50/month,Industry avg 100-300,Daily,Primary business KPI
+EXECUTIVE,Blended CPL,Total Spend ÷ Total Leads,—,—,≤€15,>€25,€8-20,Daily,Includes all paid channels
+EXECUTIVE,Total Ad Spend,Meta Spend + TikTok Spend,€80-100,€600-700,≤€3000,Over budget,—,Daily,Track vs. pacing target
+EXECUTIVE,Lead to Application Rate,Applications ÷ Leads × 100,—,—,≥20%,<10%,15-25%,Weekly,Key funnel health KPI
+EXECUTIVE,Application to Enrolled Rate,Enrolled ÷ Applications × 100,—,—,≥20%,<10%,15-30%,Monthly,Sales team KPI
+EXECUTIVE,Overall Lead to Enrolled,Enrolled ÷ Leads × 100,—,—,≥4%,<1.5%,3-6%,Monthly,End-to-end efficiency
+EXECUTIVE,Monthly Revenue,Enrolled × Avg Programme Value,—,—,€20000+,<€5000,Depends on cohort,Monthly,Track vs. spend for ROAS
+EXECUTIVE,ROAS,Revenue ÷ Total Ad Spend,—,—,≥3.0x,<1.5x,2-5x,Weekly,Revenue from enrolled students
+EXECUTIVE,WA First Response Time,Avg minutes from registration to first WA,≤15 min,—,—,>60 min,<15 min,Daily,Critical for conversion
+EXECUTIVE,Organic Lead %,Organic Leads ÷ Total Leads × 100,—,—,≥25%,<5%,20-40%,Weekly,Reduces CAC over time
+META_ADS,Meta CTR,Link Clicks ÷ Impressions × 100,≥1.5%,—,—,<0.8%,1.5-3%,Daily,Main creative health signal
+META_ADS,Meta CPC,Spend ÷ Link Clicks,≤€0.50,—,—,>€1.00,€0.20-0.60,Daily,Africa CPCs typically low
+META_ADS,Meta CPM,Spend ÷ Impressions × 1000,—,≤€4,—,>€8,€2-6,Weekly,Rising CPM = saturation
+META_ADS,Meta CPL,Spend ÷ Registrations,≤€12,—,—,>€20,€8-15,Daily,Primary paid performance KPI
+META_ADS,Meta LP Conv Rate,Registrations ÷ LP Visitors × 100,≥3.5%,—,—,<2%,3-6%,Daily,Fix LP before scaling
+META_ADS,Meta Frequency,Impressions ÷ Reach,—,1.5-3.5,—,>5.0,<4,Weekly,>5 = creative fatigue
+META_ADS,Meta Hook Rate Video,3-sec Views ÷ Impressions × 100,—,≥25%,—,<15%,25-40%,Weekly,First 3 seconds crucial
+META_ADS,Meta ROAS,Revenue from Meta ÷ Meta Spend,—,—,≥3.0x,<2.0x,2.5-5x,Weekly,—
+META_ADS,Meta Retargeting CPL,Retarget Spend ÷ Retarget Leads,—,≤€7,—,>€15,€5-10,Weekly,Should always be cheaper
+TIKTOK,TikTok Hook Rate,3-sec Views ÷ Impressions × 100,≥30%,—,—,<20%,30-50%,Daily,Critical for TT algorithm
+TIKTOK,TikTok View Rate Full,Full Views ÷ Impressions × 100,≥25%,—,—,<15%,20-35%,Daily,Signals content quality
+TIKTOK,TikTok Watch Time Avg,Total Watch Time ÷ Views (seconds),≥8s,—,—,<4s,6-12s,Weekly,—
+TIKTOK,TikTok CTR,Clicks ÷ Impressions × 100,≥1.0%,—,—,<0.5%,0.8-2%,Daily,—
+TIKTOK,TikTok CPC,Spend ÷ Clicks,≤€0.60,—,—,>€1.20,€0.30-0.80,Daily,—
+TIKTOK,TikTok CPL,Spend ÷ Registrations,≤€18,—,—,>€25,€12-22,Daily,Higher than Meta typically
+TIKTOK,TikTok Engagement Rate,(Likes+Comments+Shares) ÷ Views × 100,—,≥3%,—,<1%,2-5%,Weekly,—
+TIKTOK,TikTok ROAS,Revenue from TT ÷ TT Spend,—,—,≥2.5x,<1.5x,2-4x,Weekly,—
+SEO,Organic Sessions,GA4 organic traffic sessions,—,—,3000+(Month 6),<500/month,—,Weekly,Build over 6-9 months
+SEO,Organic Leads,GA4 goal completions via organic,—,—,30+(Month 6),<5/month,—,Weekly,—
+SEO,Organic Conv Rate,Organic Leads ÷ Sessions × 100,—,—,≥1.5%,<0.5%,1-3%,Monthly,—
+SEO,Primary KW Ranking,study English in Malta position,—,—,Top 5 (Month 9),Out of Top 50,—,Weekly,Check in GSC
+SEO,GSC Click-Through Rate,Clicks ÷ Impressions × 100,—,—,≥3%,<1%,2-5%,Weekly,—
+SEO,Avg Session Duration,Total engaged time ÷ Sessions,—,—,≥2:30 min,<0:45s,2-4 min,Monthly,—
+SEO,Bounce Rate,Single-page sessions ÷ Total × 100,—,—,≤55%,>75%,40-60%,Monthly,—
+SEO,Backlinks New per Month,Ahrefs/Semrush new links,—,—,≥10/month,0-2,—,Monthly,Guest posts + PR
+SEO,Blog Posts Published,New SEO articles live,—,1-2,4-8,0-1,4-8/month,Weekly,Target Malta student keywords
+SEO,Core Web Vitals LCP,Largest Contentful Paint seconds,—,—,<2.5s,>4.0s,<2.5s,Monthly,—
+SOCIAL,FB Group New Members,End members - Start members,—,≥35,≥150,<50/month,—,Weekly,Invite from ad audiences
+SOCIAL,FB Group Active Members %,Active ÷ Total × 100,—,—,≥10%,<3%,8-15%,Monthly,—
+SOCIAL,FB Group Leads,Source = FB Group registrations,—,≥2,≥8,<2/month,—,Weekly,—
+SOCIAL,Instagram Engagement Rate,(Likes+Comments+Saves) ÷ Reach × 100,—,≥3%,—,<1%,3-6%,Weekly,—
+SOCIAL,TikTok Organic Avg Views,Total views ÷ Videos published,—,≥500,—,<100,—,Weekly,—
+SOCIAL,Posts Published All,Total posts across all platforms,—,≥5,≥20,<8/month,—,Weekly,—
+SOCIAL,Link Clicks to Apply,Clicks to apply.outreachstudy.eu,—,—,≥100,<20,—,Monthly,Track via UTM
+FUNNEL,Impressions to Clicks CTR,Clicks ÷ Impressions × 100,≥1.5%,—,—,<0.8%,1.5-3%,Daily,—
+FUNNEL,LP Visits to Reg Started,Reg Started ÷ LP Visits × 100,≥3.5%,—,—,<2%,3-6%,Daily,—
+FUNNEL,Form Completion Rate,Completed ÷ Started × 100,—,≥40%,—,<25%,30-50%,Weekly,Hotjar to diagnose
+FUNNEL,Contact Rate WA,Contacted ÷ Leads × 100,100%,—,—,<90%,—,Daily,Should be 100%
+FUNNEL,Lead to Application Rate,Applications ÷ Leads × 100,—,—,≥20%,<10%,15-25%,Weekly,—
+FUNNEL,Application to Enrolled,Enrolled ÷ Applications × 100,—,—,≥20%,<10%,15-30%,Monthly,—
+LEAD_QUALITY,Qualified Leads %,Qualified ÷ Total Leads × 100,—,—,≥35%,<20%,30-50%,Weekly,Score-based
+LEAD_QUALITY,Avg Lead Score,Sum of signal points ÷ Total leads,—,—,≥70/100,<40,—,Monthly,See scoring framework
+LEAD_QUALITY,Valid Phone Rate,Valid WA numbers ÷ Total leads × 100,—,—,≥95%,<80%,—,Daily,—
+LEAD_QUALITY,Country Match Rate,Target country leads ÷ Total × 100,—,—,≥80%,<60%,—,Weekly,—
+LEAD_QUALITY,Hot Leads %,Tier 1 leads ÷ Total leads × 100,—,—,≥15%,<5%,—,Weekly,Score ≥75
+WHATSAPP,WA First Response Time,Avg minutes to first WA reply,≤15 min,—,—,>60 min,<15 min,Daily,Automate with ManyChat
+WHATSAPP,WA Open Rate,Messages read ÷ Sent × 100,—,≥85%,—,<60%,80-95%,Daily,—
+WHATSAPP,WA Response Rate,Replied ÷ Messaged × 100,—,≥65%,—,<40%,60-75%,Weekly,—
+WHATSAPP,Consultation Booked Rate,Booked ÷ Leads × 100,—,—,≥25%,<10%,20-35%,Weekly,—
+WHATSAPP,Consultation Show Rate,Attended ÷ Booked × 100,—,—,≥70%,<40%,65-80%,Weekly,Send reminders
+WHATSAPP,WA to Enrolled Rate,Enrolled ÷ WA Leads × 100,—,—,≥5%,<2%,4-8%,Monthly,—
+WHATSAPP,Follow-up Completion,All touches done ÷ Total leads × 100,—,≥90%,—,<70%,—,Weekly,7-touch sequence
+RETARGETING,Retargeting Audience Size,LP visitors + Video viewers last 30d,—,≥5000,—,<1000,—,Weekly,Min size for effective retarget
+RETARGETING,Retargeting CPL,Retarget Spend ÷ Retarget Leads,—,≤€7,—,>€15,€5-10,Weekly,Should be cheapest CPL
+RETARGETING,Retargeting Conv Rate,Retarget Leads ÷ Retarget Clicks × 100,—,≥6%,—,<2%,5-10%,Weekly,—
+RETARGETING,Retargeting Budget %,Retarget Spend ÷ Total Spend × 100,—,—,10-20%,>30%,—,Monthly,—
+CAC,CAC Overall,Total Spend ÷ Enrolled Students,—,—,≤€400,>€700,€200-500,Monthly,—
+CAC,CAC Meta,Meta Spend ÷ Meta-sourced Enrolled,—,—,≤€450,>€800,—,Monthly,—
+CAC,CAC TikTok,TikTok Spend ÷ TT-sourced Enrolled,—,—,≤€550,>€900,—,Monthly,—
+CAC,CAC Organic,Tool Cost ÷ Organic Enrolled,—,—,≤€100,>€200,—,Monthly,—
+CPL,CPL Meta Ads,Meta Spend ÷ Meta Leads,≤€12,—,—,>€20,€8-15,Daily,—
+CPL,CPL TikTok Ads,TikTok Spend ÷ TikTok Leads,≤€18,—,—,>€25,€12-22,Daily,—
+CPL,CPL Organic SEO,SEO Tool Cost ÷ Organic Leads,—,—,≤€10,>€20,€1-8,Monthly,—
+CPL,Blended CPL All Channels,Total Spend ÷ Total Leads,≤€15,—,—,>€25,€8-18,Daily,—
+ROAS,ROAS Overall,Revenue ÷ Total Ad Spend,—,—,≥3.0x,<1.5x,2-5x,Weekly,—
+ROAS,ROAS Meta,Revenue (Meta leads) ÷ Meta Spend,—,—,≥3.0x,<2.0x,—,Weekly,—
+ROAS,ROAS TikTok,Revenue (TT leads) ÷ TT Spend,—,—,≥2.5x,<1.5x,—,Weekly,—
+ROAS,LTV to CAC Ratio,LTV ÷ CAC,—,—,≥10x,<5x,8-15x,Monthly,LTV = avg programme value
+COUNTRY,Ghana Leads %,Ghana Leads ÷ Total Leads × 100,—,—,~40%,0%,—,Weekly,Primary target market
+COUNTRY,Nigeria Leads %,Nigeria Leads ÷ Total Leads × 100,—,—,~25%,0%,—,Weekly,—
+COUNTRY,Morocco Leads %,Morocco Leads ÷ Total Leads × 100,—,—,~15%,0%,—,Weekly,—
+COUNTRY,Uganda Leads %,Uganda Leads ÷ Total Leads × 100,—,—,~10%,0%,—,Weekly,—
+COUNTRY,Kenya Leads %,Kenya Leads ÷ Total Leads × 100,—,—,~8%,0%,—,Weekly,—
+COUNTRY,Ghana CPL,Ghana Spend ÷ Ghana Leads,—,—,≤€12,>€20,—,Weekly,—
+COUNTRY,Nigeria CPL,Nigeria Spend ÷ Nigeria Leads,—,—,≤€13,>€20,—,Weekly,—
+COUNTRY,CAC per Country,Country Spend ÷ Country Enrolled,—,—,≤€400,>€700,—,Monthly,—
+CREATIVE,Creative Hook Rate,3s Views ÷ Impressions × 100,—,≥30%,—,<20%,30-50%,Weekly,—
+CREATIVE,Creative CTR,Link Clicks ÷ Impressions × 100,—,≥1.5%,—,<0.8%,—,Weekly,—
+CREATIVE,Creative CPL,Creative Spend ÷ Creative Leads,—,≤€13,—,>€20,—,Weekly,Pause if 2x best CPL
+CREATIVE,Creative Lifespan,Days running before CTR drops 30%,—,—,21-35 days,<7 days,—,Weekly,Refresh proactively
+CREATIVE,Winner Budget %,Top 3 creatives ÷ Total spend × 100,—,—,60-80%,>95%,—,Monthly,Diversify risk
+WEBSITE,Landing Page Conv Rate,Registrations ÷ LP Visitors × 100,≥4%,—,—,<2%,3-6%,Daily,—
+WEBSITE,Page Load Speed,Time to Interactive seconds,—,—,<3s,>5s,<3s,Monthly,—
+WEBSITE,Bounce Rate,Single-page visits ÷ Total × 100,—,—,≤55%,>75%,40-60%,Monthly,—
+WEBSITE,Form Abandonment Rate,Abandoned ÷ Started × 100,—,≤60%,—,>80%,—,Weekly,Use Hotjar
+WEBSITE,Mobile Conv Rate,Mobile Reg ÷ Mobile Visitors × 100,—,—,≥3.5%,<2%,—,Monthly,70%+ traffic is mobile

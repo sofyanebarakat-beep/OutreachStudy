@@ -29,7 +29,6 @@ def programme_card(i, label, title, description, facts, url, featured=False):
     return card
 
 intro = section("pg10001", [inner("pg10002", [
-    w("pg10000", "html", html=bh.HEADER_CTA_SCRIPT),
     w("pg10003", "heading", title="Study in Malta: Programmes and Schools", header_size="h1", align="center", title_color="#162726"),
     w("pg10004", "text-editor", align="center", editor=
       "<p>Choose from our two English programmes, then book a free consultation. We help you understand the course, prepare your application and plan your next step.</p>"),

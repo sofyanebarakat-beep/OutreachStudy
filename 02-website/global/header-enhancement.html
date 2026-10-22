@@ -1,0 +1,29 @@
+<style id="outreachstudy-header-enhancement">
+.os-skip-link{position:fixed;left:16px;top:-80px;z-index:100000;background:#13211f;color:#fff!important;padding:12px 18px;border-radius:0 0 10px 10px;font-weight:700;transition:top .2s}.os-skip-link:focus{top:0}
+.header-7 .top-bar{background:#13211f}.header-7 .top-bar-list{gap:22px}.header-7 .top-bar-list li,.header-7 .top-bar-list a,.header-7 .top-social-wrap,.header-7 .top-social-wrap a{color:#fff!important;font-size:13px}
+.header-7 .primary-header{background:rgba(255,255,255,.98);border-bottom:1px solid #e5e8e7;transition:box-shadow .2s ease,padding .2s ease}.header-7.fixed .primary-header,.header-7.header-sticky .primary-header{box-shadow:0 10px 32px rgba(19,33,31,.10)}
+.header-7 .primary-header-inner{min-height:78px}.header-7 .header-logo img{max-height:54px;width:auto}.header-7 .header-menu-wrap .sub-menu{border-radius:14px;box-shadow:0 18px 50px rgba(19,33,31,.14);border:1px solid #e5e8e7;overflow:hidden}
+.header-7 .nav-links{color:#13211f!important;font-weight:600}.header-7 .nav-links:hover,.header-7 .nav-links:focus{color:#442dfa!important}
+.header-7 .header-btn{border-radius:10px!important;min-height:46px;display:inline-flex!important;align-items:center;justify-content:center;padding:0 19px!important}.header-7 .header-btn:last-of-type{background:#442dfa!important;color:#fff!important;box-shadow:0 10px 24px rgba(68,45,250,.20)}.header-7 .header-btn:last-of-type:hover,.header-7 .header-btn:last-of-type:focus{transform:translateY(-2px);box-shadow:0 14px 30px rgba(68,45,250,.28)}
+.header-7 a:focus-visible,.header-7 button:focus-visible{outline:3px solid #28a77a!important;outline-offset:3px!important}
+@media(max-width:1199px){.header-7 .top-bar-list li:nth-child(2){display:none}.header-7 .header-btn{display:none!important}.header-7 .mobile-side-menu-toggle{width:46px;height:46px;display:inline-flex!important;align-items:center;justify-content:center;border-radius:10px;background:#f2f4f7;color:#13211f!important}}
+@media(max-width:767px){.header-7 .top-bar{display:block!important}.header-7 .top-bar-list li:not(:first-child){display:none}.header-7 .top-bar-right{display:none}.header-7 .primary-header-inner{min-height:68px}.header-7 .header-logo img{max-height:46px}.mobile-side-menu .nav-links,.mobile-side-menu a{min-height:44px}.mobile-side-menu .os-mobile-consultation{display:flex!important;margin:20px 24px;padding:14px 18px;border-radius:10px;background:#442dfa;color:#fff!important;justify-content:center;font-weight:700}}
+</style>
+<script id="outreachstudy-header-enhancement-script">
+(function(){
+  var consultation='https://consultation.outreachstudy.eu/';
+  function enhanceHeader(){
+    if(!document.querySelector('.os-skip-link')){var skip=document.createElement('a');skip.className='os-skip-link';skip.href='#content';skip.textContent='Skip to content';document.body.insertBefore(skip,document.body.firstChild);}
+    var main=document.querySelector('main, #content, .site-main');if(main&&!main.id)main.id='content';
+    document.querySelectorAll('.elementor-4649 a[href^="https://apply.outreachstudy.eu"]').forEach(function(a){a.href=consultation;a.textContent='Book Free Consultation';a.setAttribute('aria-label','Book a free study consultation');});
+    var address=document.querySelector('.elementor-4649 .top-bar-list li:nth-child(2) span');if(address)address.textContent='Triq Ninu Cremona, L-Iklin PLA 1576, Malta';
+    var list=document.querySelector('.elementor-4649 .top-bar-list');if(list&&!list.querySelector('.os-header-email')){var li=document.createElement('li');li.className='os-header-email';li.innerHTML='<i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:study@outreachrecruitment.net">study@outreachrecruitment.net</a>';list.insertBefore(li,list.lastElementChild);}
+    var labels={'Malta Student Visa Guide for International Students':'Student Visa','Student Accommodation in Malta':'Accommodation','Study in Malta Blog':'Resources','Our Programs':'Programmes'};document.querySelectorAll('.elementor-4649 .nav-links').forEach(function(a){if(labels[a.textContent.trim()])a.textContent=labels[a.textContent.trim()];});
+    document.querySelectorAll('.elementor-4649 .social-list a').forEach(function(a){var icon=a.querySelector('i');var label=icon&&icon.className.match(/fa-(facebook|instagram|tiktok)/);if(label)a.setAttribute('aria-label',label[1].charAt(0).toUpperCase()+label[1].slice(1));});
+    document.querySelectorAll('.mobile-side-menu').forEach(function(menu){if(!menu.querySelector('.os-mobile-consultation')){var a=document.createElement('a');a.className='os-mobile-consultation';a.href=consultation;a.textContent='Book Free Consultation';menu.appendChild(a);}});
+  }
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="https://consultation.outreachstudy.eu"]');if(a){window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'consultation_click',link_location:a.closest('.elementor-4649')?'header':'page',link_text:a.textContent.trim()});}});
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhanceHeader);else enhanceHeader();
+  new MutationObserver(enhanceHeader).observe(document.documentElement,{childList:true,subtree:true});
+})();
+</script>

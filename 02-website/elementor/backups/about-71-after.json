@@ -135,7 +135,7 @@
         "elType": "widget",
         "widgetType": "text-editor",
         "settings": {
-         "editor": "<p>Outreach Study helps international students who want to study in Malta and Europe. We guide you from your first question to your first day in class: choosing the right programme, preparing your application, and getting support with your student visa and residence permit.</p><p>Malta is an English-speaking EU country with a Mediterranean climate, internationally recognised qualifications and lower living costs than many other European study destinations. Our team in Malta knows the local schools, the application process and student life on the island, so you can plan your studies with confidence.</p>"
+         "editor": "<p>Outreach Study helps international students who want to study in Malta and Europe. We guide you from your first question to your first day in class: choosing the right programme, preparing your application, and getting support with your student visa and residence permit.</p><p>Malta is an English-speaking EU country with a Mediterranean climate and a range of recognised study options. Our Malta-based team helps you understand schools, applications and student life so you can plan with confidence.</p><h3>Clear guidance, no false promises</h3><p>We explain programme and document requirements in plain language. Admission is confirmed by the school, while visa and residence decisions are made only by the relevant Maltese authorities. Fees, intakes and entry requirements are always confirmed before you apply.</p>"
         },
         "elements": []
        },
@@ -298,6 +298,152 @@
          },
          "title_text": "Arrival & Student Life",
          "description_text": "We share practical advice on accommodation, living costs, working while you study and settling into life in Malta.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "ab25001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "ab25002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "ab25003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "Why Students Choose Us",
+       "section_title": "What You Can Expect",
+       "section_text_align": "center"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "ab25004",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap_tablet": "wrap"
+    },
+    "elements": [
+     {
+      "id": "cab25005",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab25005",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-map-marker-alt",
+          "library": "fa-solid"
+         },
+         "title_text": "Malta-Based Support",
+         "description_text": "Speak with a team that understands the local study journey and practical arrival questions.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "cab25006",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab25006",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-list-check",
+          "library": "fa-solid"
+         },
+         "title_text": "Transparent Next Steps",
+         "description_text": "Know which documents to prepare, what the school must confirm and what happens after submission.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "cab25007",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab25007",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-user-shield",
+          "library": "fa-solid"
+         },
+         "title_text": "Your Decision Stays Yours",
+         "description_text": "Compare your options without admission or visa guarantees that no education consultant can legitimately make.",
          "title_size": "h3"
         },
         "elements": []

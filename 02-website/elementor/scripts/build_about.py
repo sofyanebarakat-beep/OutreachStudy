@@ -18,7 +18,8 @@ d=[
      heading("ab10006","About Outreach Study","Helping International Students Study in Malta"),
      w("ab10007","text-editor",editor=
        "<p>Outreach Study helps international students who want to study in Malta and Europe. We guide you from your first question to your first day in class: choosing the right programme, preparing your application, and getting support with your student visa and residence permit.</p>"
-       "<p>Malta is an English-speaking EU country with a Mediterranean climate, internationally recognised qualifications and lower living costs than many other European study destinations. Our team in Malta knows the local schools, the application process and student life on the island, so you can plan your studies with confidence.</p>"),
+       "<p>Malta is an English-speaking EU country with a Mediterranean climate and a range of recognised study options. Our Malta-based team helps you understand schools, applications and student life so you can plan with confidence.</p>"
+       "<h3>Clear guidance, no false promises</h3><p>We explain programme and document requirements in plain language. Admission is confirmed by the school, while visa and residence decisions are made only by the relevant Maltese authorities. Fees, intakes and entry requirements are always confirmed before you apply.</p>"),
      w("ab10008","button",text="Book a Free Consultation",link={"url":"https://consultation.outreachstudy.eu/","is_external":"","nofollow":"","custom_attributes":""}),
    ],width={"unit":"%","size":55},width_tablet={"unit":"%","size":100,"sizes":[]},padding={"unit":"px","top":"0","right":"0","bottom":"0","left":"40","isLinked":False},padding_tablet={"unit":"px","top":"30","right":"0","bottom":"0","left":"0","isLinked":False}),
  ],flex_direction="row",flex_align_items="center",flex_wrap_tablet="wrap")],flex_direction="column",padding=pad,padding_tablet=padt,padding_mobile=padm),
@@ -30,6 +31,14 @@ d=[
      iconbox("ab20007","fas fa-plane-arrival","Arrival & Student Life","We share practical advice on accommodation, living costs, working while you study and settling into life in Malta."),
    ],flex_direction="row",flex_wrap_tablet="wrap"),
  ],flex_direction="column",background_background="classic",background_color="#F2F4F7",padding=pad,padding_tablet=padt,padding_mobile=padm),
+ box("ab25001",[
+   inner("ab25002",[heading("ab25003","Why Students Choose Us","What You Can Expect","center")]),
+   inner("ab25004",[
+     iconbox("ab25005","fas fa-map-marker-alt","Malta-Based Support","Speak with a team that understands the local study journey and practical arrival questions."),
+     iconbox("ab25006","fas fa-list-check","Transparent Next Steps","Know which documents to prepare, what the school must confirm and what happens after submission."),
+     iconbox("ab25007","fas fa-user-shield","Your Decision Stays Yours","Compare your options without admission or visa guarantees that no education consultant can legitimately make."),
+   ],flex_direction="row",flex_wrap_tablet="wrap"),
+ ],flex_direction="column",padding=pad,padding_tablet=padt,padding_mobile=padm),
  box("ab30001",[inner("ab30002",[
    heading("ab30003","Contact Us","Talk to Our Team in Malta","center"),
    w("ab30004","text-editor",align="center",editor=

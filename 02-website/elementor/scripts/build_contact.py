@@ -7,6 +7,7 @@ d[0]['elements'].insert(0,{"id":"ct00000","elType":"widget","widgetType":"html",
 form_col['elements']=[{"id":"a1c0f01","elType":"widget","widgetType":"text-editor","elements":[],"settings":{"editor":
 "<h2>Talk to Outreach Study</h2>"
 "<p>Want to study in Malta? Our team gives free advice on programmes, applications, student visas and accommodation. Contact us by phone or email, or start your application online.</p>"
+"<p>After you contact us, we review your study goals and explain the most relevant next step. Schools make admission decisions, and Maltese authorities make visa and residence decisions.</p>"
 "<ul>"
 "<li><strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a></li>"
 "<li><strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></li>"

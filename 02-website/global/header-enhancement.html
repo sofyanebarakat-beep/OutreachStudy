@@ -15,15 +15,15 @@
   function enhanceHeader(){
     if(!document.querySelector('.os-skip-link')){var skip=document.createElement('a');skip.className='os-skip-link';skip.href='#content';skip.textContent='Skip to content';document.body.insertBefore(skip,document.body.firstChild);}
     var main=document.querySelector('main, #content, .site-main');if(main&&!main.id)main.id='content';
-    document.querySelectorAll('.elementor-4649 a[href^="https://apply.outreachstudy.eu"]').forEach(function(a){a.href=consultation;a.textContent='Book Free Consultation';a.setAttribute('aria-label','Book a free study consultation');});
-    var address=document.querySelector('.elementor-4649 .top-bar-list li:nth-child(2) span');if(address)address.textContent='Triq Ninu Cremona, L-Iklin PLA 1576, Malta';
+    document.querySelectorAll('.elementor-4649 a[href^="https://apply.outreachstudy.eu"]').forEach(function(a){a.href=consultation;if(a.textContent.trim()!=='Book Free Consultation')a.textContent='Book Free Consultation';a.setAttribute('aria-label','Book a free study consultation');});
+    var address=document.querySelector('.elementor-4649 .top-bar-list li:nth-child(2) span');if(address&&address.textContent.trim()!=='Triq Ninu Cremona, L-Iklin PLA 1576, Malta')address.textContent='Triq Ninu Cremona, L-Iklin PLA 1576, Malta';
     var list=document.querySelector('.elementor-4649 .top-bar-list');if(list&&!list.querySelector('.os-header-email')){var li=document.createElement('li');li.className='os-header-email';li.innerHTML='<i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:study@outreachrecruitment.net">study@outreachrecruitment.net</a>';list.insertBefore(li,list.lastElementChild);}
-    var labels={'Malta Student Visa Guide for International Students':'Student Visa','Student Accommodation in Malta':'Accommodation','Study in Malta Blog':'Resources','Our Programs':'Programmes'};document.querySelectorAll('.elementor-4649 .nav-links').forEach(function(a){if(labels[a.textContent.trim()])a.textContent=labels[a.textContent.trim()];});
+    var labels={'Malta Student Visa Guide for International Students':'Student Visa','Student Accommodation in Malta':'Accommodation','Study in Malta Blog':'Resources','Our Programs':'Programmes'};document.querySelectorAll('.elementor-4649 .nav-links').forEach(function(a){var replacement=labels[a.textContent.trim()];if(replacement&&a.textContent.trim()!==replacement)a.textContent=replacement;});
     document.querySelectorAll('.elementor-4649 .social-list a').forEach(function(a){var icon=a.querySelector('i');var label=icon&&icon.className.match(/fa-(facebook|instagram|tiktok)/);if(label)a.setAttribute('aria-label',label[1].charAt(0).toUpperCase()+label[1].slice(1));});
     document.querySelectorAll('.mobile-side-menu').forEach(function(menu){if(!menu.querySelector('.os-mobile-consultation')){var a=document.createElement('a');a.className='os-mobile-consultation';a.href=consultation;a.textContent='Book Free Consultation';menu.appendChild(a);}});
   }
   document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="https://consultation.outreachstudy.eu"]');if(a){window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'consultation_click',link_location:a.closest('.elementor-4649')?'header':'page',link_text:a.textContent.trim()});}});
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhanceHeader);else enhanceHeader();
-  new MutationObserver(enhanceHeader).observe(document.documentElement,{childList:true,subtree:true});
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhanceHeader,{once:true});else enhanceHeader();
+  window.setTimeout(enhanceHeader,800);
 })();
 </script>

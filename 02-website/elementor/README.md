@@ -8,7 +8,7 @@ through the WordPress MCP connection, plus the scripts that produced them.
 | Page | ID | What changed |
 |---|---|---|
 | Home | 4500 | Single-slide carousel replaced with a responsive two-column hero, focused H1 and CTAs, trust cues and support badge; "How it works" (4 steps); programme cards fixed (correct apply link, MBA name, Business description) plus a Professional English Programme card; FAQ (6 questions); final call-to-action band; unused theme demo slides removed |
-| Our Programs | 7595 | H1 and intro added above the programme search app; theme demo FAQ replaced with a real FAQ and a consultation button |
+| Our Programs | 7595 | Lovable programme-search iframe removed and replaced with two responsive native Elementor programme cards; H1, intro, real FAQ and consultation CTA included |
 | Contact | 77 | Real address, phone, email, hours and social links; the broken Contact Form 7 shortcode replaced with contact options |
 | About Us | 71 | Theme demo content replaced with real company content |
 

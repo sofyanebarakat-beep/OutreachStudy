@@ -66,7 +66,7 @@
       "widgetType": "text-editor",
       "settings": {
        "align": "center",
-       "editor": "<p>Search English courses, foundation degrees, bachelor's and master's programmes at schools in Malta. Filter by subject and level, then book a free consultation and we help you apply.</p>"
+       "editor": "<p>Choose from our two English programmes, then book a free consultation. We help you understand the course, prepare your application and plan your next step.</p>"
       },
       "elements": []
      }
@@ -77,21 +77,491 @@
   "isInner": false
  },
  {
-  "id": "fc9f68d",
+  "id": "pg15001",
   "elType": "container",
   "settings": {
    "flex_direction": "column",
-   "content_width": "full"
+   "padding": {
+    "unit": "px",
+    "top": "55",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F7F5EF"
   },
   "elements": [
    {
-    "id": "d9f72d9",
-    "elType": "widget",
-    "widgetType": "html",
-    "elements": [],
+    "id": "pg15002",
+    "elType": "container",
     "settings": {
-     "html": "<iframe src=\"https://global-pathways-finder.lovable.app/search\" title=\"Search study programmes in Malta\" style=\"width:100%; height:100vh; border:none;\" loading=\"lazy\"></iframe>"
-    }
+     "content_width": "boxed",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "space-between",
+     "flex_gap": {
+      "column": "28",
+      "row": "28",
+      "isLinked": false,
+      "unit": "px"
+     },
+     "boxed_width": {
+      "unit": "px",
+      "size": 1160,
+      "sizes": []
+     }
+    },
+    "elements": [
+     {
+      "id": "pg1510",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 48.5,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "border_color": "#E5E8E7",
+       "border_radius": {
+        "unit": "px",
+        "top": "22",
+        "right": "22",
+        "bottom": "22",
+        "left": "22",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "38",
+        "right": "38",
+        "bottom": "38",
+        "left": "38",
+        "isLinked": true
+       },
+       "padding_mobile": {
+        "unit": "px",
+        "top": "28",
+        "right": "24",
+        "bottom": "28",
+        "left": "24",
+        "isLinked": false
+       },
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 16,
+        "blur": 45,
+        "spread": -24,
+        "color": "rgba(19,33,31,0.28)"
+       }
+      },
+      "elements": [
+       {
+        "id": "pg1510a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "STUDY IN MALTA",
+         "header_size": "h6",
+         "title_color": "#442DFA",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12,
+          "sizes": []
+         },
+         "typography_font_weight": "700",
+         "typography_letter_spacing": {
+          "unit": "px",
+          "size": 1.2,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1510b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Professional English Programme in Malta",
+         "header_size": "h2",
+         "title_color": "#13211F",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 26,
+          "sizes": []
+         },
+         "typography_font_weight": "700"
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1510c",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Build professional English skills while studying full-time in Malta with an EU-recognised qualification.</p>",
+         "text_color": "#52605D",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+         },
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.65,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1510d",
+        "elType": "widget",
+        "widgetType": "icon-list",
+        "settings": {
+         "icon_color": "#28A77A",
+         "text_color": "#263936",
+         "space_between": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+         },
+         "icon_list": [
+          {
+           "text": "12 months full-time",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15100"
+          },
+          {
+           "text": "MQF Level 4 \u00b7 48 ECTS",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15101"
+          },
+          {
+           "text": "Residence permit and part-time work rights",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15102"
+          },
+          {
+           "text": "Launch price \u20ac3,950 (standard \u20ac4,950)",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15103"
+          }
+         ]
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1510e",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "View Programme",
+         "link": {
+          "url": "https://outreachstudy.eu/study-english-in-malta/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "align": "left",
+         "size": "md",
+         "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+         },
+         "background_color": "#442dfa",
+         "button_text_color": "#FFFFFF",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "icon_indent": {
+          "unit": "px",
+          "size": 8,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "pg1520",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 48.5,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "background_background": "classic",
+       "background_color": "#FFFFFF",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "border_color": "#E5E8E7",
+       "border_radius": {
+        "unit": "px",
+        "top": "22",
+        "right": "22",
+        "bottom": "22",
+        "left": "22",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "38",
+        "right": "38",
+        "bottom": "38",
+        "left": "38",
+        "isLinked": true
+       },
+       "padding_mobile": {
+        "unit": "px",
+        "top": "28",
+        "right": "24",
+        "bottom": "28",
+        "left": "24",
+        "isLinked": false
+       },
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 16,
+        "blur": 45,
+        "spread": -24,
+        "color": "rgba(19,33,31,0.28)"
+       }
+      },
+      "elements": [
+       {
+        "id": "pg1520a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "STUDY ONLINE",
+         "header_size": "h6",
+         "title_color": "#442DFA",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12,
+          "sizes": []
+         },
+         "typography_font_weight": "700",
+         "typography_letter_spacing": {
+          "unit": "px",
+          "size": 1.2,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1520b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Intensive English Programme \u2014 10 Weeks",
+         "header_size": "h2",
+         "title_color": "#13211F",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 26,
+          "sizes": []
+         },
+         "typography_font_weight": "700"
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1520c",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Improve your English through a structured online programme designed around consistent, teacher-led practice.</p>",
+         "text_color": "#52605D",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+         },
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.65,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1520d",
+        "elType": "widget",
+        "widgetType": "icon-list",
+        "settings": {
+         "icon_color": "#28A77A",
+         "text_color": "#263936",
+         "space_between": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+         },
+         "icon_list": [
+          {
+           "text": "10-week intensive programme",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15200"
+          },
+          {
+           "text": "3 hours daily, Monday to Friday",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15201"
+          },
+          {
+           "text": "Evening classes",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15202"
+          },
+          {
+           "text": "Certified English teachers",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "pg15203"
+          }
+         ]
+        },
+        "elements": []
+       },
+       {
+        "id": "pg1520e",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Apply Now",
+         "link": {
+          "url": "https://apply.outreachstudy.eu/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "align": "left",
+         "size": "md",
+         "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+         },
+         "background_color": "#442dfa",
+         "button_text_color": "#FFFFFF",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "icon_indent": {
+          "unit": "px",
+          "size": 8,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
    }
   ],
   "isInner": false
@@ -190,7 +660,7 @@
         },
         {
          "tab_title": "How much does it cost to study in Malta?",
-         "tab_content": "<p>It depends on the school and programme. For example, our 12-month Professional English Programme has a launch price of €3,950. See our <a href=\"https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/\">guide to the cost of studying in Malta</a> for living costs.</p>",
+         "tab_content": "<p>It depends on the school and programme. For example, our 12-month Professional English Programme has a launch price of \u20ac3,950. See our <a href=\"https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/\">guide to the cost of studying in Malta</a> for living costs.</p>",
          "_id": "pgq0002"
         },
         {

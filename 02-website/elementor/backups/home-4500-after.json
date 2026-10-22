@@ -2358,6 +2358,215 @@
   "isInner": false
  },
  {
+  "id": "hs35001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "hs35002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs35003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "Student Guides",
+       "section_title": "Plan Every Step of Studying in Malta",
+       "section_text_align": "center"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "hs35004",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "width": {
+      "unit": "%",
+      "size": 72,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "align_self": "center"
+    },
+    "elements": [
+     {
+      "id": "hs35005",
+      "elType": "widget",
+      "widgetType": "icon-list",
+      "settings": {
+       "icon_color": "#442dfa",
+       "text_color": "#13211F",
+       "space_between": {
+        "unit": "px",
+        "size": 16,
+        "sizes": []
+       },
+       "icon_list": [
+        {
+         "text": "Study in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g001"
+        },
+        {
+         "text": "English courses in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/study-english-in-malta/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g002"
+        },
+        {
+         "text": "Malta student visa guide",
+         "link": {
+          "url": "https://outreachstudy.eu/malta-student-visa-guide/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g003"
+        },
+        {
+         "text": "Cost of studying in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g004"
+        },
+        {
+         "text": "Student accommodation in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/student-accommodation-malta/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g005"
+        },
+        {
+         "text": "Working while studying in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/work-while-studying-in-malta/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g006"
+        },
+        {
+         "text": "Malta study requirements",
+         "link": {
+          "url": "https://outreachstudy.eu/study-in-malta-requirements/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g007"
+        },
+        {
+         "text": "Schools and programmes in Malta",
+         "link": {
+          "url": "https://outreachstudy.eu/study-in-malta-schools-programs/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "_id": "g008"
+        }
+       ]
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
   "id": "hs30001",
   "elType": "container",
   "settings": {

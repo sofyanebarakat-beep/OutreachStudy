@@ -215,6 +215,21 @@ faq = section("hs30001", [
           width={"unit": "%", "size": 80, "sizes": []}, width_mobile={"unit": "%", "size": 100, "sizes": []}, align_self="center"),
 ], bg="#F2F4F7")
 
+guides = section("hs35001", [
+    inner("hs35002", [heading("hs35003", "Student Guides", "Plan Every Step of Studying in Malta")]),
+    inner("hs35004", [w("hs35005", "icon-list", icon_color=BLUE, text_color=INK,
+      space_between={"unit": "px", "size": 16, "sizes": []}, icon_list=[
+        {"text": "Study in Malta", "link": link("https://outreachstudy.eu/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g001"},
+        {"text": "English courses in Malta", "link": link("https://outreachstudy.eu/study-english-in-malta/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g002"},
+        {"text": "Malta student visa guide", "link": link("https://outreachstudy.eu/malta-student-visa-guide/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g003"},
+        {"text": "Cost of studying in Malta", "link": link("https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g004"},
+        {"text": "Student accommodation in Malta", "link": link("https://outreachstudy.eu/student-accommodation-malta/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g005"},
+        {"text": "Working while studying in Malta", "link": link("https://outreachstudy.eu/work-while-studying-in-malta/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g006"},
+        {"text": "Malta study requirements", "link": link("https://outreachstudy.eu/study-in-malta-requirements/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g007"},
+        {"text": "Schools and programmes in Malta", "link": link("https://outreachstudy.eu/study-in-malta-schools-programs/"), "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "_id": "g008"},
+      ])], width={"unit": "%", "size": 72, "sizes": []}, width_mobile={"unit": "%", "size": 100, "sizes": []}, align_self="center"),
+])
+
 cta = section("hs40001", [inner("hs40002", [
     w("hs40003", "heading", title="Ready to Study in Malta?", header_size="h2", align="center", title_color="#FFFFFF"),
     w("hs40004", "text-editor", align="center", text_color="#FFFFFF",
@@ -236,6 +251,7 @@ d.insert([c["id"] for c in d].index("bfba620"), how)
 # drop the empty placeholder container
 d = [c for c in d if c["id"] != "ad88a93"]
 # FAQ before the blog, CTA band last (directly above the footer)
+d.insert([c["id"] for c in d].index("3443e7c"), guides)
 d.insert([c["id"] for c in d].index("3443e7c"), faq)
 d.append(cta)
 

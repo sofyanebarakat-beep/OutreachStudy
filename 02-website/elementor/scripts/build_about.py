@@ -12,6 +12,7 @@ SOC=('<a href="https://www.facebook.com/profile.php?id=61582445649555" target="_
      '<a href="https://www.tiktok.com/@outreachstudy" target="_blank" rel="noopener">TikTok</a>')
 d=[
  box("ab10001",[inner("ab10002",[
+   w("ab10000","html",html="""<script>(function(){function f(){document.querySelectorAll('a[href^=\"https://apply.outreachstudy.eu\"]').forEach(function(a){a.href='https://consultation.outreachstudy.eu/';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{f();}new MutationObserver(f).observe(document.documentElement,{childList:true,subtree:true});})();</script>"""),
    inner("ab10003",[w("ab10004","image",image={"id":4508,"url":"https://outreachstudy.eu/wp-content/uploads/2025/02/offer-img.png","alt":"International students studying together outdoors in Malta","source":"library"},image_size="full")],width={"unit":"%","size":45},width_tablet={"unit":"%","size":100,"sizes":[]}),
    inner("ab10005",[
      heading("ab10006","About Outreach Study","Helping International Students Study in Malta"),

@@ -2,6 +2,7 @@ import json,sys
 d=json.loads(open(sys.argv[1]).read())
 form_col=d[0]['elements'][0]['elements'][0]
 info=d[0]['elements'][0]['elements'][1]['elements'][0]['settings']
+d[0]['elements'].insert(0,{"id":"ct00000","elType":"widget","widgetType":"html","elements":[],"settings":{"html":"<script>(function(){function f(){document.querySelectorAll('a[href^=\\\"https://apply.outreachstudy.eu\\\"]').forEach(function(a){a.href='https://consultation.outreachstudy.eu/';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{f();}new MutationObserver(f).observe(document.documentElement,{childList:true,subtree:true});})();</script>"}})
 # Contact Form 7 is not installed, so the form widget printed a raw shortcode: replace it with real contact options
 form_col['elements']=[{"id":"a1c0f01","elType":"widget","widgetType":"text-editor","elements":[],"settings":{"editor":
 "<h2>Talk to Outreach Study</h2>"

@@ -3,6 +3,7 @@ import json, sys
 CONSULTATION = "https://consultation.outreachstudy.eu/"
 APPLY = CONSULTATION
 CONTACT = CONSULTATION
+HEADER_CTA_SCRIPT = """<script>(function(){function fixConsultationLinks(){document.querySelectorAll('a[href^=\"https://apply.outreachstudy.eu\"]').forEach(function(link){link.href='https://consultation.outreachstudy.eu/';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',fixConsultationLinks);}else{fixConsultationLinks();}new MutationObserver(fixConsultationLinks).observe(document.documentElement,{childList:true,subtree:true});})();</script>"""
 PHONE_TEL = "+35677200984"
 PHONE = "+356 7720 0984"
 BLUE = "#442dfa"  # theme colour 1 (edcare_theme_color_1)
@@ -74,7 +75,7 @@ hero_styles = """<style>
 .os-hero-badge{position:absolute;left:-32px;bottom:32px;max-width:245px;z-index:2}
 @media(max-width:1024px){.os-hero-photo img{height:470px}.os-hero-badge{left:18px}.os-hero-trust .elementor-icon-list-item{padding-right:10px}}
 @media(max-width:767px){.os-hero-photo img{height:350px;border-radius:20px}.os-hero-badge{position:relative;left:auto;bottom:auto;margin:-42px 16px 0}.os-hero-trust .elementor-icon-list-items{display:grid!important;gap:10px}.os-hero-trust .elementor-icon-list-item{padding:0}.os-hero-actions .elementor-button{width:100%}}
-</style>"""
+</style>""" + HEADER_CTA_SCRIPT
 
 hero_left = inner("hr10002", [
     w("hr10003", "heading", title="Your trusted study partner in Malta", header_size="h6",

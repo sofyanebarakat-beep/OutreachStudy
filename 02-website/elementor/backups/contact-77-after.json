@@ -31,6 +31,15 @@
   },
   "elements": [
    {
+    "id": "ct00000",
+    "elType": "widget",
+    "widgetType": "html",
+    "elements": [],
+    "settings": {
+     "html": "<script>(function(){function f(){document.querySelectorAll('a[href^=\\\"https://apply.outreachstudy.eu\\\"]').forEach(function(a){a.href='https://consultation.outreachstudy.eu/';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{f();}new MutationObserver(f).observe(document.documentElement,{childList:true,subtree:true});})();</script>"
+    }
+   },
+   {
     "id": "8d9ebd9",
     "elType": "container",
     "settings": {

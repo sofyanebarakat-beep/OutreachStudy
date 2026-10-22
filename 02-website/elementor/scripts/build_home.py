@@ -5,6 +5,9 @@ CONTACT = "https://outreachstudy.eu/contact/"
 PHONE_TEL = "+35677200984"
 PHONE = "+356 7720 0984"
 BLUE = "#442dfa"  # theme colour 1 (edcare_theme_color_1)
+INK = "#13211F"
+MUTED = "#52605D"
+WARM = "#F7F5EF"
 
 pad = lambda t, b: {"unit": "px", "top": str(t), "right": "12", "bottom": str(b), "left": "12", "isLinked": False}
 
@@ -17,7 +20,9 @@ def section(i, els, bg=None, top=120, bottom=120):
 
 
 def inner(i, els, **s):
-    return {"id": i, "elType": "container", "settings": dict(content_width="full", **s), "elements": els, "isInner": True}
+    settings = {"content_width": "full"}
+    settings.update(s)
+    return {"id": i, "elType": "container", "settings": settings, "elements": els, "isInner": True}
 
 
 def w(i, t, **s):
@@ -54,22 +59,68 @@ def walk(els):
 d = json.load(open(sys.argv[1]))
 by_id = {e["id"]: e for e in walk(d)}
 
-# 1. Hero: fix typos, clearer promise, correct links (the old links pointed to apply.outreachstudy.eu/admin and the empty Course page)
-hero = by_id["cc7f902"]["settings"]["slider_list"][0]
-hero.update(
-    slider_subheading="Discover study opportunities in Malta",
-    slider_title_one="Study in Malta with",
-    slider_title_two=" expert help from ",
-    slider_title_three="Outreach Study",
-    slider_description="English courses, diplomas and degrees in Malta, with support for<br> your application, student visa and residence permit, from your<br> first question to your first day in class.",
-    slider_button_text="Book a Free Consultation",
-    slider_button_link=link(CONTACT),
-    slider_button_text_two="Browse Study Options",
-    slider_button_link_type_two="2",
-    slider_button_page_link_two="7595",
-)
-hero["slider_image"]["alt"] = "Valletta skyline and Grand Harbour, Malta"
-hero.pop("slider_button_page_link", None)
+# 1. Hero: replace the one-slide theme carousel with a calmer, more focused
+# standard-Elementor layout. This avoids slider controls for a single message
+# and gives the primary offer, CTA and trust signals a clear hierarchy.
+hero_styles = """<style>
+.os-hero-kicker .elementor-heading-title{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #c9e9dc;border-radius:999px;background:#fff;color:#24463f;letter-spacing:.08em;text-transform:uppercase}
+.os-hero-kicker .elementor-heading-title:before{content:'';width:8px;height:8px;border-radius:50%;background:#28a77a;box-shadow:0 0 0 5px #ddf6ec}
+.os-hero-copy strong{color:#442dfa;font-weight:700}
+.os-hero-actions .elementor-button{box-shadow:0 10px 24px rgba(68,45,250,.18);transition:transform .2s ease,box-shadow .2s ease}
+.os-hero-actions .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(68,45,250,.25)}
+.os-hero-trust .elementor-icon-list-item{padding:0 18px 0 0}
+.os-hero-photo img{width:100%;height:570px;object-fit:cover;border-radius:28px;box-shadow:0 26px 70px rgba(19,33,31,.18)}
+.os-hero-badge{position:absolute;left:-32px;bottom:32px;max-width:245px;z-index:2}
+@media(max-width:1024px){.os-hero-photo img{height:470px}.os-hero-badge{left:18px}.os-hero-trust .elementor-icon-list-item{padding-right:10px}}
+@media(max-width:767px){.os-hero-photo img{height:350px;border-radius:20px}.os-hero-badge{position:relative;left:auto;bottom:auto;margin:-42px 16px 0}.os-hero-trust .elementor-icon-list-items{display:grid!important;gap:10px}.os-hero-trust .elementor-icon-list-item{padding:0}.os-hero-actions .elementor-button{width:100%}}
+</style>"""
+
+hero_left = inner("hr10002", [
+    w("hr10003", "heading", title="Your trusted study partner in Malta", header_size="h6",
+      title_color="#24463F", typography_typography="custom", typography_font_size={"unit": "px", "size": 12, "sizes": []},
+      typography_font_weight="700", css_classes="os-hero-kicker"),
+    w("hr10004", "heading", title="Your Malta education journey, <strong>made simple.</strong>", header_size="h1",
+      title_color=INK, typography_typography="custom", typography_font_size={"unit": "px", "size": 64, "sizes": []},
+      typography_font_size_tablet={"unit": "px", "size": 48, "sizes": []}, typography_font_size_mobile={"unit": "px", "size": 39, "sizes": []},
+      typography_line_height={"unit": "em", "size": 1.05, "sizes": []}, typography_font_weight="700", css_classes="os-hero-copy",
+      _margin={"unit": "px", "top": "24", "right": "0", "bottom": "22", "left": "0", "isLinked": False}),
+    w("hr10005", "text-editor", editor="<p>Choose the right English course, diploma or degree with practical support for your application, visa and arrival in Malta.</p>",
+      text_color=MUTED, typography_typography="custom", typography_font_size={"unit": "px", "size": 19, "sizes": []},
+      typography_font_size_mobile={"unit": "px", "size": 17, "sizes": []}, typography_line_height={"unit": "em", "size": 1.65, "sizes": []},
+      _margin={"unit": "px", "top": "0", "right": "0", "bottom": "30", "left": "0", "isLinked": False}),
+    inner("hr10006", [
+        button("hr10007", "Book a Free Consultation", CONTACT, icon="fas fa-arrow-right", align="left"),
+        button("hr10008", "Explore Programmes", "https://outreachstudy.eu/our-programs/", primary=False, align="left"),
+    ], flex_direction="row", flex_wrap="wrap", flex_gap={"column": "14", "row": "12", "isLinked": False, "unit": "px"}, css_classes="os-hero-actions"),
+    w("hr10009", "icon-list", view="inline", css_classes="os-hero-trust", space_between={"unit": "px", "size": 18, "sizes": []},
+      icon_color="#28A77A", text_color="#34423F", typography_typography="custom", typography_font_size={"unit": "px", "size": 14, "sizes": []},
+      _margin={"unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": False}, icon_list=[
+          {"text": "Free first consultation", "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": "hrt001"},
+          {"text": "Visa guidance", "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": "hrt002"},
+          {"text": "Malta-based support", "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": "hrt003"},
+      ]),
+], width={"unit": "%", "size": 54, "sizes": []}, width_tablet={"unit": "%", "size": 52, "sizes": []}, width_mobile={"unit": "%", "size": 100, "sizes": []})
+
+hero_right = inner("hr10010", [
+    w("hr10011", "image", image={"url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp", "id": 7128, "alt": "International students overlooking Valletta and Grand Harbour in Malta", "source": "library", "size": ""},
+      image_size="full", css_classes="os-hero-photo"),
+    inner("hr10012", [
+        w("hr10013", "icon-box", selected_icon={"value": "fas fa-route", "library": "fa-solid"}, view="stacked", primary_color=BLUE,
+          title_text="Support at every step", description_text="From your first consultation to your arrival in Malta.", title_size="h3",
+          title_color=INK, description_color=MUTED),
+    ], background_background="classic", background_color="#FFFFFF", border_radius={"unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": True},
+       padding={"unit": "px", "top": "18", "right": "20", "bottom": "18", "left": "20", "isLinked": False},
+       box_shadow_box_shadow={"horizontal": 0, "vertical": 14, "blur": 36, "spread": 0, "color": "rgba(19,33,31,0.18)"}, css_classes="os-hero-badge"),
+], width={"unit": "%", "size": 42, "sizes": []}, width_tablet={"unit": "%", "size": 44, "sizes": []}, width_mobile={"unit": "%", "size": 100, "sizes": []}, position="relative")
+
+hero_section = section("90bc247", [
+    w("hr10000", "html", html=hero_styles),
+    inner("hr10001", [hero_left, hero_right], flex_direction="row", flex_align_items="center", flex_justify_content="space-between",
+          flex_direction_mobile="column", flex_gap={"column": "54", "row": "48", "isLinked": False, "unit": "px"},
+          content_width="boxed", boxed_width={"unit": "px", "size": 1240, "sizes": []}),
+], bg=WARM, top=86, bottom=86)
+hero_section["settings"].update(padding_tablet=pad(70, 70), padding_mobile=pad(52, 62), overflow="hidden")
+d[[e["id"] for e in d].index("90bc247")] = hero_section
 
 # 2. Course cards: fix copy and point "Apply Now" at the application form instead of its admin area
 cards = by_id["6997472"]["settings"]["slider_list"]
@@ -114,7 +165,7 @@ by_id["42cc0a9"]["settings"].update(button_text="About Outreach Study")
 
 # 4. New sections
 trust = section("hs10001", [inner("hs10002", [
-    w("hs10003", "heading", title="Study in Malta: English Courses, Diplomas and Degrees with Visa Support", header_size="h1",
+    w("hs10003", "heading", title="Study in Malta: English Courses, Diplomas and Degrees with Visa Support", header_size="h2",
       align="center", title_color="#162726", typography_typography="custom", typography_font_size={"unit": "px", "size": 32, "sizes": []},
       typography_font_size_mobile={"unit": "px", "size": 24, "sizes": []}, typography_font_weight="600"),
     w("hs10004", "icon-list", view="inline", icon_align="center", space_between={"unit": "px", "size": 28, "sizes": []},

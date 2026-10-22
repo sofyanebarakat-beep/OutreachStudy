@@ -3,55 +3,436 @@
   "id": "90bc247",
   "elType": "container",
   "settings": {
-   "content_width": "full"
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "86",
+    "right": "12",
+    "bottom": "86",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "52",
+    "right": "12",
+    "bottom": "62",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F7F5EF",
+   "overflow": "hidden"
   },
   "elements": [
    {
-    "id": "cc7f902",
+    "id": "hr10000",
     "elType": "widget",
+    "widgetType": "html",
     "settings": {
-     "slider_list": [
-      {
-       "slider_subheading": "Discover study opportunities in Malta",
-       "slider_title_one": "Study in Malta with",
-       "slider_title_two": " expert help from ",
-       "slider_title_three": "Outreach Study",
-       "slider_description": "English courses, diplomas and degrees in Malta, with support for<br> your application, student visa and residence permit, from your<br> first question to your first day in class.",
-       "_id": "4c76a02",
-       "slider_image": {
-        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp",
-        "id": 7128,
-        "size": "",
-        "alt": "Valletta skyline and Grand Harbour, Malta",
-        "source": "library"
-       },
-       "slider_button_text": "Book a Free Consultation",
-       "slider_button_text_two": "Browse Study Options",
-       "slider_button_link_type_two": "2",
-       "slider_button_page_link_two": "7595",
-       "slider_button_link": {
-        "url": "https://outreachstudy.eu/contact/",
-        "is_external": "",
-        "nofollow": "",
-        "custom_attributes": ""
-       }
-      }
-     ],
-     "slider_nav_list": [
-      {
-       "slider_nav_list_image": {
-        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp",
-        "id": 7128,
-        "alt": "study in malta",
-        "source": "library",
-        "size": ""
-       },
-       "_id": "4b95ab0"
-      }
-     ]
+     "html": "<style>\n.os-hero-kicker .elementor-heading-title{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #c9e9dc;border-radius:999px;background:#fff;color:#24463f;letter-spacing:.08em;text-transform:uppercase}\n.os-hero-kicker .elementor-heading-title:before{content:'';width:8px;height:8px;border-radius:50%;background:#28a77a;box-shadow:0 0 0 5px #ddf6ec}\n.os-hero-copy strong{color:#442dfa;font-weight:700}\n.os-hero-actions .elementor-button{box-shadow:0 10px 24px rgba(68,45,250,.18);transition:transform .2s ease,box-shadow .2s ease}\n.os-hero-actions .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(68,45,250,.25)}\n.os-hero-trust .elementor-icon-list-item{padding:0 18px 0 0}\n.os-hero-photo img{width:100%;height:570px;object-fit:cover;border-radius:28px;box-shadow:0 26px 70px rgba(19,33,31,.18)}\n.os-hero-badge{position:absolute;left:-32px;bottom:32px;max-width:245px;z-index:2}\n@media(max-width:1024px){.os-hero-photo img{height:470px}.os-hero-badge{left:18px}.os-hero-trust .elementor-icon-list-item{padding-right:10px}}\n@media(max-width:767px){.os-hero-photo img{height:350px;border-radius:20px}.os-hero-badge{position:relative;left:auto;bottom:auto;margin:-42px 16px 0}.os-hero-trust .elementor-icon-list-items{display:grid!important;gap:10px}.os-hero-trust .elementor-icon-list-item{padding:0}.os-hero-actions .elementor-button{width:100%}}\n</style>"
     },
-    "elements": [],
-    "widgetType": "edcare_hero_slider"
+    "elements": []
+   },
+   {
+    "id": "hr10001",
+    "elType": "container",
+    "settings": {
+     "content_width": "boxed",
+     "flex_direction": "row",
+     "flex_align_items": "center",
+     "flex_justify_content": "space-between",
+     "flex_direction_mobile": "column",
+     "flex_gap": {
+      "column": "54",
+      "row": "48",
+      "isLinked": false,
+      "unit": "px"
+     },
+     "boxed_width": {
+      "unit": "px",
+      "size": 1240,
+      "sizes": []
+     }
+    },
+    "elements": [
+     {
+      "id": "hr10002",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 54,
+        "sizes": []
+       },
+       "width_tablet": {
+        "unit": "%",
+        "size": 52,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       }
+      },
+      "elements": [
+       {
+        "id": "hr10003",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Your trusted study partner in Malta",
+         "header_size": "h6",
+         "title_color": "#24463F",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 12,
+          "sizes": []
+         },
+         "typography_font_weight": "700",
+         "css_classes": "os-hero-kicker"
+        },
+        "elements": []
+       },
+       {
+        "id": "hr10004",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+         "title": "Your Malta education journey, <strong>made simple.</strong>",
+         "header_size": "h1",
+         "title_color": "#13211F",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 64,
+          "sizes": []
+         },
+         "typography_font_size_tablet": {
+          "unit": "px",
+          "size": 48,
+          "sizes": []
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 39,
+          "sizes": []
+         },
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.05,
+          "sizes": []
+         },
+         "typography_font_weight": "700",
+         "css_classes": "os-hero-copy",
+         "_margin": {
+          "unit": "px",
+          "top": "24",
+          "right": "0",
+          "bottom": "22",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "hr10005",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Choose the right English course, diploma or degree with practical support for your application, visa and arrival in Malta.</p>",
+         "text_color": "#52605D",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 19,
+          "sizes": []
+         },
+         "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 17,
+          "sizes": []
+         },
+         "typography_line_height": {
+          "unit": "em",
+          "size": 1.65,
+          "sizes": []
+         },
+         "_margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "30",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "hr10006",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "flex_direction": "row",
+         "flex_wrap": "wrap",
+         "flex_gap": {
+          "column": "14",
+          "row": "12",
+          "isLinked": false,
+          "unit": "px"
+         },
+         "css_classes": "os-hero-actions"
+        },
+        "elements": [
+         {
+          "id": "hr10007",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Book a Free Consultation",
+           "link": {
+            "url": "https://outreachstudy.eu/contact/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "align": "left",
+           "size": "md",
+           "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+           },
+           "background_color": "#442dfa",
+           "button_text_color": "#FFFFFF",
+           "selected_icon": {
+            "value": "fas fa-arrow-right",
+            "library": "fa-solid"
+           },
+           "icon_indent": {
+            "unit": "px",
+            "size": 8,
+            "sizes": []
+           }
+          },
+          "elements": []
+         },
+         {
+          "id": "hr10008",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+           "text": "Explore Programmes",
+           "link": {
+            "url": "https://outreachstudy.eu/our-programs/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "align": "left",
+           "size": "md",
+           "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+           },
+           "background_color": "#FFFFFF",
+           "button_text_color": "#442dfa",
+           "border_border": "solid",
+           "border_width": {
+            "unit": "px",
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2",
+            "isLinked": true
+           },
+           "border_color": "#442dfa"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "hr10009",
+        "elType": "widget",
+        "widgetType": "icon-list",
+        "settings": {
+         "view": "inline",
+         "css_classes": "os-hero-trust",
+         "space_between": {
+          "unit": "px",
+          "size": 18,
+          "sizes": []
+         },
+         "icon_color": "#28A77A",
+         "text_color": "#34423F",
+         "typography_typography": "custom",
+         "typography_font_size": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+         },
+         "_margin": {
+          "unit": "px",
+          "top": "32",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "icon_list": [
+          {
+           "text": "Free first consultation",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "hrt001"
+          },
+          {
+           "text": "Visa guidance",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "hrt002"
+          },
+          {
+           "text": "Malta-based support",
+           "selected_icon": {
+            "value": "fas fa-check-circle",
+            "library": "fa-solid"
+           },
+           "_id": "hrt003"
+          }
+         ]
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "hr10010",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 42,
+        "sizes": []
+       },
+       "width_tablet": {
+        "unit": "%",
+        "size": 44,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "position": "relative"
+      },
+      "elements": [
+       {
+        "id": "hr10011",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp",
+          "id": 7128,
+          "alt": "International students overlooking Valletta and Grand Harbour in Malta",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "full",
+         "css_classes": "os-hero-photo"
+        },
+        "elements": []
+       },
+       {
+        "id": "hr10012",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "background_background": "classic",
+         "background_color": "#FFFFFF",
+         "border_radius": {
+          "unit": "px",
+          "top": "18",
+          "right": "18",
+          "bottom": "18",
+          "left": "18",
+          "isLinked": true
+         },
+         "padding": {
+          "unit": "px",
+          "top": "18",
+          "right": "20",
+          "bottom": "18",
+          "left": "20",
+          "isLinked": false
+         },
+         "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 14,
+          "blur": 36,
+          "spread": 0,
+          "color": "rgba(19,33,31,0.18)"
+         },
+         "css_classes": "os-hero-badge"
+        },
+        "elements": [
+         {
+          "id": "hr10013",
+          "elType": "widget",
+          "widgetType": "icon-box",
+          "settings": {
+           "selected_icon": {
+            "value": "fas fa-route",
+            "library": "fa-solid"
+           },
+           "view": "stacked",
+           "primary_color": "#442dfa",
+           "title_text": "Support at every step",
+           "description_text": "From your first consultation to your arrival in Malta.",
+           "title_size": "h3",
+           "title_color": "#13211F",
+           "description_color": "#52605D"
+          },
+          "elements": []
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
    }
   ],
   "isInner": false
@@ -71,17 +452,17 @@
    },
    "padding_tablet": {
     "unit": "px",
-    "top": "30",
+    "top": "80",
     "right": "12",
-    "bottom": "30",
+    "bottom": "80",
     "left": "12",
     "isLinked": false
    },
    "padding_mobile": {
     "unit": "px",
-    "top": "30",
+    "top": "70",
     "right": "12",
-    "bottom": "30",
+    "bottom": "70",
     "left": "12",
     "isLinked": false
    },
@@ -102,7 +483,7 @@
       "widgetType": "heading",
       "settings": {
        "title": "Study in Malta: English Courses, Diplomas and Degrees with Visa Support",
-       "header_size": "h1",
+       "header_size": "h2",
        "align": "center",
        "title_color": "#162726",
        "typography_typography": "custom",
@@ -233,6 +614,36 @@
       "unit": "%",
       "size": 25,
       "sizes": []
+     },
+     "_offset_y_end_widescreen": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "_offset_y_end_laptop": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "_offset_y_end_tablet_extra": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "_offset_y_end_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "_offset_y_end_mobile_extra": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "_offset_y_end_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
      }
     },
     "elements": [],
@@ -291,6 +702,36 @@
             "size": 100,
             "sizes": []
            },
+           "height_widescreen": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "height_laptop": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "height_tablet_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "height_tablet": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "height_mobile_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "height_mobile": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
            "image_border_border": "solid",
            "image_border_width": {
             "unit": "px",
@@ -315,6 +756,31 @@
             "size": 0,
             "sizes": []
            },
+           "_offset_x_widescreen": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_x_laptop": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_x_tablet_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_x_tablet": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_x_mobile_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
            "_offset_x_mobile": {
             "unit": "%",
             "size": 5,
@@ -324,6 +790,36 @@
            "_offset_y_end": {
             "unit": "px",
             "size": 45,
+            "sizes": []
+           },
+           "_offset_y_end_widescreen": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_y_end_laptop": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_y_end_tablet_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_y_end_tablet": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_y_end_mobile_extra": {
+            "unit": "%",
+            "size": "",
+            "sizes": []
+           },
+           "_offset_y_end_mobile": {
+            "unit": "%",
+            "size": "",
             "sizes": []
            }
           },
@@ -364,6 +860,26 @@
            "typography_title_line_height": {
             "unit": "em",
             "size": 1.3,
+            "sizes": []
+           },
+           "typography_title_line_height_widescreen": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+           },
+           "typography_title_line_height_laptop": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+           },
+           "typography_title_line_height_tablet_extra": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+           },
+           "typography_title_line_height_mobile_extra": {
+            "unit": "em",
+            "size": "",
             "sizes": []
            },
            "_padding": {
@@ -497,7 +1013,7 @@
           "id": "c7133df",
           "elType": "widget",
           "settings": {
-           "title": "<p>We are <a href=\"https://outreachrecruitment.net/\" style=\"color: blue;\">Outreach Recruitment</a>, a recruitment agency based in Malta, specializing in connecting talent with career opportunities.</p>\n\n<p>For years, we have built bridges between talent and companies. Today, we are excited to build a new one—helping students unlock their future by finding their perfect study opportunity in Malta.</p>",
+           "title": "<p>We are <a href=\"https://outreachrecruitment.net/\" style=\"color: blue;\">Outreach Recruitment</a>, a recruitment agency based in Malta, specializing in connecting talent with career opportunities.</p>\n\n<p>For years, we have built bridges between talent and companies. Today, we are excited to build a new one\u2014helping students unlock their future by finding their perfect study opportunity in Malta.</p>",
            "header_size": "p",
            "typography_typography": "custom",
            "typography_font_family": "Outfit",
@@ -691,6 +1207,10 @@
                     "isLinked": false
                    },
                    "_element_width": "initial",
+                   "_element_custom_width": {
+                    "unit": "%",
+                    "size": ""
+                   },
                    "_flex_size": "none",
                    "_border_width": {
                     "unit": "px",
@@ -1125,7 +1645,7 @@
               "value": "fas fa-check",
               "library": "fa-solid"
              },
-             "feature_text": "Launch price €3,950 (standard €4,950)",
+             "feature_text": "Launch price \u20ac3,950 (standard \u20ac4,950)",
              "_id": "pe2026d"
             }
            ],
@@ -1211,7 +1731,7 @@
             "url": "https://outreachstudy.eu/wp-content/uploads/2025/05/cta-img.png",
             "id": 6602,
             "size": "",
-            "alt": "Students studying together on a laptop in a café",
+            "alt": "Students studying together on a laptop in a caf\u00e9",
             "source": "library"
            },
            "_id": "cb1f850",
@@ -1307,7 +1827,192 @@
            }
           }
          ],
-         "feature_list": []
+         "feature_list": [],
+         "slider_list_two": [
+          {
+           "slider_title": "Business & Management",
+           "slider_description": "German Language Academy, 1234 Learning Street, <br> EduCity, ABC 56789",
+           "slider_button_text": "Sign Up Now",
+           "_id": "43f98d8",
+           "service_slider_image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/course-img-1.png",
+            "id": 4566,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "feature_list_two": [
+            {
+             "feature_text": "Online application form for easy admission",
+             "_id": "23e1c9a"
+            },
+            {
+             "feature_text": "User-friendly student dashboard",
+             "_id": "fbebab3"
+            },
+            {
+             "feature_text": "Profile creation with personal & academic details",
+             "_id": "7ed68f4"
+            }
+           ],
+           "activeItemIndex": 1
+          },
+          {
+           "slider_title": "Engineering & Technology",
+           "slider_description": "German Language Academy, 1234 Learning Street, <br> EduCity, ABC 56789",
+           "slider_button_text": "Sign Up Now",
+           "_id": "1cff973",
+           "service_slider_image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/course-img-2.png",
+            "id": 4567,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "feature_list_two": [
+            {
+             "feature_text": "Online application form for easy admission",
+             "_id": "0648b0c"
+            },
+            {
+             "feature_text": "User-friendly student dashboard",
+             "_id": "586afc8"
+            },
+            {
+             "feature_text": "Profile creation with personal & academic details",
+             "_id": "b9f7e1c"
+            }
+           ],
+           "activeItemIndex": 1
+          },
+          {
+           "slider_title": "Health & Medicine",
+           "slider_description": "German Language Academy, 1234 Learning Street, <br> EduCity, ABC 56789",
+           "slider_button_text": "Sign Up Now",
+           "service_slider_image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/course-img-3.png",
+            "id": 4568,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "feature_list_two": [
+            {
+             "feature_text": "Online application form for easy admission",
+             "_id": "0648b0c"
+            },
+            {
+             "feature_text": "User-friendly student dashboard",
+             "_id": "586afc8"
+            },
+            {
+             "feature_text": "Profile creation with personal & academic details",
+             "_id": "b9f7e1c"
+            }
+           ],
+           "activeItemIndex": 1,
+           "_id": "5c40513"
+          },
+          {
+           "slider_title": "Science & Environment",
+           "slider_description": "German Language Academy, 1234 Learning Street, <br> EduCity, ABC 56789",
+           "slider_button_text": "Sign Up Now",
+           "service_slider_image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/course-img-4.png",
+            "id": 4569,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "feature_list_two": [
+            {
+             "feature_text": "Online application form for easy admission",
+             "_id": "0648b0c"
+            },
+            {
+             "feature_text": "User-friendly student dashboard",
+             "_id": "586afc8"
+            },
+            {
+             "feature_text": "Profile creation with personal & academic details",
+             "_id": "b9f7e1c"
+            }
+           ],
+           "activeItemIndex": 1,
+           "_id": "f2ea85c"
+          },
+          {
+           "slider_title": "Arts & Humanities",
+           "slider_description": "German Language Academy, 1234 Learning Street, <br> EduCity, ABC 56789",
+           "slider_button_text": "Sign Up Now",
+           "service_slider_image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/course-img-5.png",
+            "id": 4570,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "feature_list_two": [
+            {
+             "feature_text": "Online application form for easy admission",
+             "_id": "0648b0c"
+            },
+            {
+             "feature_text": "User-friendly student dashboard",
+             "_id": "586afc8"
+            },
+            {
+             "feature_text": "Profile creation with personal & academic details",
+             "_id": "b9f7e1c"
+            }
+           ],
+           "activeItemIndex": 1,
+           "_id": "f2dcba2"
+          }
+         ],
+         "feature_list_two": [],
+         "section_subheading": "Testimonials",
+         "section_title": "What our clients <br> says about our <br> best work.",
+         "slider_list_three": [
+          {
+           "slider_title": "Comprehensive English Proficiency Test for Academic",
+           "slider_button_text": "Explore Exam Now",
+           "_id": "ea66768"
+          },
+          {
+           "slider_title": "Global Standardized Language Proficiency Exam",
+           "slider_button_text": "Explore Exam Now",
+           "_id": "32a25cc"
+          },
+          {
+           "slider_title": "IT and Software Examination for Career Advancement",
+           "slider_button_text": "Explore Exam Now",
+           "_id": "f86b106"
+          }
+         ],
+         "slider_list_four": [
+          {
+           "slider_title": "Career Mentorship",
+           "slider_description": "Customizable learning modules for employee upskilling and workforce development.",
+           "slider_price": "$29",
+           "slider_button_text": "Read More",
+           "_id": "2ceb74c"
+          },
+          {
+           "slider_title": "Academic Mentorship",
+           "slider_description": "Customizable learning modules for employee upskilling and workforce development.",
+           "slider_price": "$39",
+           "slider_button_text": "Read More",
+           "_id": "b1efe0c"
+          },
+          {
+           "slider_title": "Industry-Specific Mentorship",
+           "slider_description": "Customizable learning modules for employee upskilling and workforce development.",
+           "slider_price": "$49",
+           "slider_button_text": "Read More",
+           "_id": "aa03926"
+          }
+         ]
         },
         "elements": [],
         "widgetType": "edcare_service_slider"
@@ -1567,7 +2272,7 @@
           },
           {
            "tab_title": "English is an official national language",
-           "tab_description": "English, as Malta’s official language, makes studying, working, and living easier while enhancing your language skills.",
+           "tab_description": "English, as Malta\u2019s official language, makes studying, working, and living easier while enhancing your language skills.",
            "_id": "77464ac",
            "tab_image_icon": {
             "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-3.png",
@@ -1601,7 +2306,7 @@
           },
           {
            "tab_title": "Fast Visa Process",
-           "tab_description": "Our guidance helps you navigate Malta’s streamlined and efficient student visa process, ensuring a quick and successful application.",
+           "tab_description": "Our guidance helps you navigate Malta\u2019s streamlined and efficient student visa process, ensuring a quick and successful application.",
            "tab_image_icon": {
             "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-4.png",
             "id": 4678,
@@ -1746,7 +2451,7 @@
         },
         {
          "tab_title": "How much does it cost to study in Malta?",
-         "tab_content": "<p>It depends on the programme and school. For example, our 12-month Professional English Programme has a launch price of €3,950. See our <a href=\"https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/\">guide to the cost of studying in Malta</a> for living costs.</p>",
+         "tab_content": "<p>It depends on the programme and school. For example, our 12-month Professional English Programme has a launch price of \u20ac3,950. See our <a href=\"https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/\">guide to the cost of studying in Malta</a> for living costs.</p>",
          "_id": "hsq0002"
         },
         {

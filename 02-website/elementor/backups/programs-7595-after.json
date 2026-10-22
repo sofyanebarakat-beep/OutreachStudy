@@ -528,7 +528,7 @@
         "settings": {
          "text": "Apply Now",
          "link": {
-          "url": "https://apply.outreachstudy.eu/",
+          "url": "https://consultation.outreachstudy.eu/",
           "is_external": "",
           "nofollow": "",
           "custom_attributes": ""
@@ -689,7 +689,7 @@
       "settings": {
        "text": "Book a Free Consultation",
        "link": {
-        "url": "https://outreachstudy.eu/contact/",
+        "url": "https://consultation.outreachstudy.eu/",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""

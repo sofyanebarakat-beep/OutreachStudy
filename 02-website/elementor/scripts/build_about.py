@@ -18,7 +18,7 @@ d=[
      w("ab10007","text-editor",editor=
        "<p>Outreach Study helps international students who want to study in Malta and Europe. We guide you from your first question to your first day in class: choosing the right programme, preparing your application, and getting support with your student visa and residence permit.</p>"
        "<p>Malta is an English-speaking EU country with a Mediterranean climate, internationally recognised qualifications and lower living costs than many other European study destinations. Our team in Malta knows the local schools, the application process and student life on the island, so you can plan your studies with confidence.</p>"),
-     w("ab10008","button",text="Start Your Application",link={"url":"https://apply.outreachstudy.eu/","is_external":"","nofollow":"","custom_attributes":""}),
+     w("ab10008","button",text="Book a Free Consultation",link={"url":"https://consultation.outreachstudy.eu/","is_external":"","nofollow":"","custom_attributes":""}),
    ],width={"unit":"%","size":55},width_tablet={"unit":"%","size":100,"sizes":[]},padding={"unit":"px","top":"0","right":"0","bottom":"0","left":"40","isLinked":False},padding_tablet={"unit":"px","top":"30","right":"0","bottom":"0","left":"0","isLinked":False}),
  ],flex_direction="row",flex_align_items="center",flex_wrap_tablet="wrap")],flex_direction="column",padding=pad,padding_tablet=padt,padding_mobile=padm),
  box("ab20001",[
@@ -36,7 +36,7 @@ d=[
      "<strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a><br>"
      "<strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></p>"
      "<p>Follow us: "+SOC+"</p>"),
-   w("ab30005","button",text="Contact Us",align="center",link={"url":"https://outreachstudy.eu/contact/","is_external":"","nofollow":"","custom_attributes":""}),
+   w("ab30005","button",text="Book a Free Consultation",align="center",link={"url":"https://consultation.outreachstudy.eu/","is_external":"","nofollow":"","custom_attributes":""}),
  ])],flex_direction="column",padding=pad,padding_tablet=padt,padding_mobile=padm),
 ]
 print(json.dumps(d,ensure_ascii=False,separators=(',',':')))

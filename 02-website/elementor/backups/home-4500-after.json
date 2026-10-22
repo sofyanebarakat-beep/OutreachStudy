@@ -204,7 +204,7 @@
           "settings": {
            "text": "Book a Free Consultation",
            "link": {
-            "url": "https://outreachstudy.eu/contact/",
+            "url": "https://consultation.outreachstudy.eu/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -1510,7 +1510,7 @@
       "settings": {
        "text": "Book a Free Consultation",
        "link": {
-        "url": "https://outreachstudy.eu/contact/",
+        "url": "https://consultation.outreachstudy.eu/",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""
@@ -1690,7 +1690,7 @@
             "source": "library"
            },
            "slider_button_link": {
-            "url": "https://apply.outreachstudy.eu/",
+            "url": "https://consultation.outreachstudy.eu/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -1736,7 +1736,7 @@
            },
            "_id": "cb1f850",
            "slider_button_link": {
-            "url": "https://apply.outreachstudy.eu/",
+            "url": "https://consultation.outreachstudy.eu/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -1774,7 +1774,7 @@
            },
            "_id": "111b6a0",
            "slider_button_link": {
-            "url": "https://apply.outreachstudy.eu/",
+            "url": "https://consultation.outreachstudy.eu/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -1820,7 +1820,7 @@
            },
            "_id": "76e66e6",
            "slider_button_link": {
-            "url": "https://apply.outreachstudy.eu/",
+            "url": "https://consultation.outreachstudy.eu/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -2603,7 +2603,7 @@
         "settings": {
          "text": "Book a Free Consultation",
          "link": {
-          "url": "https://outreachstudy.eu/contact/",
+          "url": "https://consultation.outreachstudy.eu/",
           "is_external": "",
           "nofollow": "",
           "custom_attributes": ""

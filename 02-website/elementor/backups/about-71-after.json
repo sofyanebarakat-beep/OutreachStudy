@@ -135,9 +135,9 @@
         "elType": "widget",
         "widgetType": "button",
         "settings": {
-         "text": "Start Your Application",
+         "text": "Book a Free Consultation",
          "link": {
-          "url": "https://apply.outreachstudy.eu/",
+          "url": "https://consultation.outreachstudy.eu/",
           "is_external": "",
           "nofollow": "",
           "custom_attributes": ""
@@ -361,7 +361,7 @@
       "widgetType": "text-editor",
       "settings": {
        "align": "center",
-       "editor": "<p><strong>Address:</strong> Triq Ninu Cremona, L-Iklin PLA 1576, Malta<br><strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a><br><strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></p><p>Follow us: <a href=\"https://www.facebook.com/profile.php?id=61582445649555\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/outreachstudy\" target=\"_blank\" rel=\"noopener\">Instagram</a> · <a href=\"https://www.tiktok.com/@outreachstudy\" target=\"_blank\" rel=\"noopener\">TikTok</a></p>"
+       "editor": "<p><strong>Address:</strong> Triq Ninu Cremona, L-Iklin PLA 1576, Malta<br><strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a><br><strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></p><p>Follow us: <a href=\"https://www.facebook.com/profile.php?id=61582445649555\" target=\"_blank\" rel=\"noopener\">Facebook</a> \u00b7 <a href=\"https://www.instagram.com/outreachstudy\" target=\"_blank\" rel=\"noopener\">Instagram</a> \u00b7 <a href=\"https://www.tiktok.com/@outreachstudy\" target=\"_blank\" rel=\"noopener\">TikTok</a></p>"
       },
       "elements": []
      },
@@ -370,10 +370,10 @@
       "elType": "widget",
       "widgetType": "button",
       "settings": {
-       "text": "Contact Us",
+       "text": "Book a Free Consultation",
        "align": "center",
        "link": {
-        "url": "https://outreachstudy.eu/contact/",
+        "url": "https://consultation.outreachstudy.eu/",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""

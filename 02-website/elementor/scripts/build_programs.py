@@ -43,7 +43,7 @@ programmes = section("pg15001", [
         programme_card("pg1520", "Study online", "Intensive English Programme — 10 Weeks",
           "Improve your English through a structured online programme designed around consistent, teacher-led practice.",
           ["10-week intensive programme", "3 hours daily, Monday to Friday", "Evening classes", "Certified English teachers"],
-          "https://apply.outreachstudy.eu/"),
+          bh.CONSULTATION),
     ], flex_direction="row", flex_wrap="wrap", flex_justify_content="space-between", flex_gap={"column": "28", "row": "28", "isLinked": False, "unit": "px"},
        content_width="boxed", boxed_width={"unit": "px", "size": 1160, "sizes": []}),
 ], bg="#F7F5EF", top=55, bottom=80)

@@ -13,7 +13,7 @@ through the WordPress MCP connection, plus the scripts that produced them.
 | About Us | 71 | Theme demo content replaced with real company content |
 
 Main action on the site: **Book a Free Consultation** goes to the Contact page;
-**Apply Now** on programme cards goes to https://apply.outreachstudy.eu/.
+All consultation and application CTAs go to https://consultation.outreachstudy.eu/.
 
 ## Restoring a page
 
@@ -32,7 +32,7 @@ These need access the WordPress MCP connection does not have (the header and
 footer are theme templates outside the REST API):
 
 - Header (template 4649): old address "230, Seaspeed Triq Ninu Cremona, Paola";
-  the "Apply now" button links to `apply.outreachstudy.eu/admin`.
+  the "Apply now" button must be updated to `consultation.outreachstudy.eu`.
 - Footer (template 3133): email link goes to `info@company.com`; no phone or
   address; "#" links; copyright year 2025.
 - Mobile menu: address "Paola, Malta".

@@ -1,7 +1,8 @@
 import json, sys
 
-APPLY = "https://apply.outreachstudy.eu/"
-CONTACT = "https://outreachstudy.eu/contact/"
+CONSULTATION = "https://consultation.outreachstudy.eu/"
+APPLY = CONSULTATION
+CONTACT = CONSULTATION
 PHONE_TEL = "+35677200984"
 PHONE = "+356 7720 0984"
 BLUE = "#442dfa"  # theme colour 1 (edcare_theme_color_1)

@@ -9,7 +9,7 @@ form_col['elements']=[{"id":"a1c0f01","elType":"widget","widgetType":"text-edito
 "<ul>"
 "<li><strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a></li>"
 "<li><strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></li>"
-"<li><strong>Apply online:</strong> <a href=\"https://apply.outreachstudy.eu/\">apply.outreachstudy.eu</a></li>"
+"<li><strong>Book online:</strong> <a href=\"https://consultation.outreachstudy.eu/\">Free consultation</a></li>"
 "</ul>"
 "<p>Follow us: <a href=\"https://www.facebook.com/profile.php?id=61582445649555\" target=\"_blank\" rel=\"noopener\">Facebook</a> · "
 "<a href=\"https://www.instagram.com/outreachstudy\" target=\"_blank\" rel=\"noopener\">Instagram</a> · "

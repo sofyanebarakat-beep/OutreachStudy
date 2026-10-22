@@ -1,0 +1,158 @@
+[
+ {
+  "id": "80b404c",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "0",
+    "bottom": "120",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "8d9ebd9",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "flex_wrap_tablet": "wrap"
+    },
+    "elements": [
+     {
+      "id": "0d1802d",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 58.318
+       },
+       "_flex_size": "none",
+       "_element_width": "initial",
+       "width_tablet": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       }
+      },
+      "elements": [
+       {
+        "id": "580ade3",
+        "elType": "widget",
+        "settings": {
+         "section_title": "Leave A Reply",
+         "section_description": "Fill-up The Form and Message us of your amazing question",
+         "edcare_select_contact_form": "6",
+         "section_subheading": "Course Request"
+        },
+        "elements": [],
+        "widgetType": "edcare_contact_form"
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "183f7f1",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       }
+      },
+      "elements": [
+       {
+        "id": "2e64664",
+        "elType": "widget",
+        "settings": {
+         "section_title": "Office Information",
+         "section_description": "Completely recapitalize 24/7 communities via standards compliant metrics whereas.",
+         "contact_info_list": [
+          {
+           "contact_info_title": "Phone Number & Email",
+           "contact_info_phone": "(+65) - 48596 - 5789",
+           "contact_info_phone_url": "+65485965789",
+           "contact_info_email": "hello@edcare.com",
+           "info_type": "phone",
+           "_id": "28afa9a",
+           "contact_info_selected_icon": {
+            "value": "fas fa-phone-alt",
+            "library": "fa-solid"
+           }
+          },
+          {
+           "contact_info_title": "Our Office Address",
+           "contact_info_address": "2690 Hilton Street Victoria Road, New York, Canada",
+           "_id": "844cb90",
+           "contact_info_selected_icon": {
+            "value": "fas fa-map-marker-alt",
+            "library": "fa-solid"
+           }
+          },
+          {
+           "contact_info_title": "Official Work Time",
+           "contact_info_office_time_one": "Monday - Friday: 09:00 - 20:00",
+           "contact_info_office_time_two": "Sunday & Saturday: 10:30 - 22:00",
+           "info_type": "office-time",
+           "_id": "56a4c5f",
+           "contact_info_selected_icon": {
+            "value": "fas fa-clock",
+            "library": "fa-solid"
+           }
+          }
+         ]
+        },
+        "elements": [],
+        "widgetType": "edcare_contact_info"
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ }
+]

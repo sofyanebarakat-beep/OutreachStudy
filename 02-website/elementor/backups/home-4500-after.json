@@ -1,0 +1,1986 @@
+[
+ {
+  "id": "90bc247",
+  "elType": "container",
+  "settings": {
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "cc7f902",
+    "elType": "widget",
+    "settings": {
+     "slider_list": [
+      {
+       "slider_subheading": "Discover study opportunities in Malta",
+       "slider_title_one": "Study in Malta with",
+       "slider_title_two": " expert help from ",
+       "slider_title_three": "Outreach Study",
+       "slider_description": "English courses, diplomas and degrees in Malta, with support for<br> your application, student visa and residence permit, from your<br> first question to your first day in class.",
+       "_id": "4c76a02",
+       "slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp",
+        "id": 7128,
+        "size": "",
+        "alt": "Valletta skyline and Grand Harbour, Malta",
+        "source": "library"
+       },
+       "slider_button_text": "Book a Free Consultation",
+       "slider_button_text_two": "Browse Study Options",
+       "slider_button_link_type_two": "2",
+       "slider_button_page_link_two": "7595",
+       "slider_button_link": {
+        "url": "https://outreachstudy.eu/contact/",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       }
+      }
+     ],
+     "slider_nav_list": [
+      {
+       "slider_nav_list_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/study-in-malta.webp",
+        "id": 7128,
+        "alt": "study in malta",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "4b95ab0"
+      }
+     ]
+    },
+    "elements": [],
+    "widgetType": "edcare_hero_slider"
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "hs10001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "40",
+    "right": "12",
+    "bottom": "40",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "30",
+    "right": "12",
+    "bottom": "30",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "30",
+    "right": "12",
+    "bottom": "30",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F2F4F7"
+  },
+  "elements": [
+   {
+    "id": "hs10002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs10003",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Study in Malta: English Courses, Diplomas and Degrees with Visa Support",
+       "header_size": "h1",
+       "align": "center",
+       "title_color": "#162726",
+       "typography_typography": "custom",
+       "typography_font_size": {
+        "unit": "px",
+        "size": 32,
+        "sizes": []
+       },
+       "typography_font_size_mobile": {
+        "unit": "px",
+        "size": 24,
+        "sizes": []
+       },
+       "typography_font_weight": "600"
+      },
+      "elements": []
+     },
+     {
+      "id": "hs10004",
+      "elType": "widget",
+      "widgetType": "icon-list",
+      "settings": {
+       "view": "inline",
+       "icon_align": "center",
+       "space_between": {
+        "unit": "px",
+        "size": 28,
+        "sizes": []
+       },
+       "icon_color": "#442dfa",
+       "text_color": "#3A3D3E",
+       "icon_list": [
+        {
+         "text": "EU-recognised qualifications",
+         "selected_icon": {
+          "value": "fas fa-graduation-cap",
+          "library": "fa-solid"
+         },
+         "_id": "hs1000a"
+        },
+        {
+         "text": "Student visa and residence permit support",
+         "selected_icon": {
+          "value": "fas fa-passport",
+          "library": "fa-solid"
+         },
+         "_id": "hs1000b"
+        },
+        {
+         "text": "Free consultation",
+         "selected_icon": {
+          "value": "fas fa-comments",
+          "library": "fa-solid"
+         },
+         "_id": "hs1000c"
+        }
+       ]
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "0cde766",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "0",
+    "bottom": "120",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet_extra": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile_extra": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "content_width": "full",
+   "width": {
+    "unit": "%",
+    "size": 100.061
+   },
+   "overflow": "hidden",
+   "padding_laptop": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "_flex_size": "none",
+   "_element_width": "initial"
+  },
+  "elements": [
+   {
+    "id": "89e63f2",
+    "elType": "widget",
+    "settings": {
+     "image": {
+      "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/about-shape-3.png",
+      "id": 4605,
+      "size": "",
+      "alt": "",
+      "source": "library"
+     },
+     "_position": "absolute",
+     "_offset_orientation_v": "end",
+     "_offset_y_end": {
+      "unit": "%",
+      "size": 25,
+      "sizes": []
+     }
+    },
+    "elements": [],
+    "widgetType": "image"
+   },
+   {
+    "id": "9ecb679",
+    "elType": "container",
+    "settings": [],
+    "elements": [
+     {
+      "id": "6ec05a2",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "flex_wrap_tablet": "wrap"
+      },
+      "elements": [
+       {
+        "id": "adf7801",
+        "elType": "container",
+        "settings": {
+         "content_width": "full"
+        },
+        "elements": [
+         {
+          "id": "e85939f",
+          "elType": "widget",
+          "settings": {
+           "image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/about-img-3.png",
+            "id": 4618,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "align_mobile": "left",
+           "width": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+           },
+           "width_mobile": {
+            "unit": "%",
+            "size": 70,
+            "sizes": []
+           },
+           "space": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+           },
+           "height": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+           },
+           "image_border_border": "solid",
+           "image_border_width": {
+            "unit": "px",
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4",
+            "isLinked": true
+           },
+           "image_border_color": "#FFFFFF",
+           "image_border_radius": {
+            "unit": "px",
+            "top": "15",
+            "right": "15",
+            "bottom": "15",
+            "left": "15",
+            "isLinked": true
+           },
+           "_position": "absolute",
+           "_offset_x": {
+            "unit": "%",
+            "size": 0,
+            "sizes": []
+           },
+           "_offset_x_mobile": {
+            "unit": "%",
+            "size": 5,
+            "sizes": []
+           },
+           "_offset_orientation_v": "end",
+           "_offset_y_end": {
+            "unit": "px",
+            "size": 45,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "image"
+         },
+         {
+          "id": "a892b2f",
+          "elType": "widget",
+          "settings": {
+           "ending_number": 7,
+           "title": "Years Of Experience",
+           "title_position": "end",
+           "title_gap": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+           },
+           "number_position": "center",
+           "number_alignment": "start",
+           "number_color": "#FFFFFF",
+           "typography_number_typography": "custom",
+           "typography_number_font_family": "Outfit",
+           "typography_number_font_size": {
+            "unit": "px",
+            "size": 60,
+            "sizes": []
+           },
+           "typography_number_font_weight": "600",
+           "title_color": "#FFFFFF",
+           "typography_title_typography": "custom",
+           "typography_title_font_size": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+           },
+           "typography_title_font_weight": "600",
+           "typography_title_line_height": {
+            "unit": "em",
+            "size": 1.3,
+            "sizes": []
+           },
+           "_padding": {
+            "unit": "px",
+            "top": "15",
+            "right": "30",
+            "bottom": "15",
+            "left": "30",
+            "isLinked": false
+           },
+           "_element_width": "initial",
+           "_element_custom_width": {
+            "unit": "%",
+            "size": 34.764
+           },
+           "_element_custom_width_mobile": {
+            "unit": "px",
+            "size": 240,
+            "sizes": []
+           },
+           "_flex_align_self": "flex-start",
+           "_flex_size": "none",
+           "_position": "absolute",
+           "_offset_x_mobile": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+           },
+           "_offset_y_mobile": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+           },
+           "_background_background": "classic",
+           "_background_color": "#07A698",
+           "_border_radius": {
+            "unit": "px",
+            "top": "15",
+            "right": "15",
+            "bottom": "15",
+            "left": "15",
+            "isLinked": true
+           }
+          },
+          "elements": [],
+          "widgetType": "counter"
+         },
+         {
+          "id": "f8777bb",
+          "elType": "widget",
+          "settings": {
+           "image": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/about-img-4.png",
+            "id": 4614,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "image_size": "full",
+           "align": "right",
+           "align_tablet": "center",
+           "image_border_radius": {
+            "unit": "px",
+            "top": "15",
+            "right": "15",
+            "bottom": "15",
+            "left": "15",
+            "isLinked": true
+           }
+          },
+          "elements": [],
+          "widgetType": "image"
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "8af27c4",
+        "elType": "container",
+        "settings": {
+         "content_width": "full",
+         "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "30",
+          "isLinked": false
+         },
+         "padding_tablet_extra": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "padding_tablet": {
+          "unit": "px",
+          "top": "30",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": [
+         {
+          "id": "e74d375",
+          "elType": "widget",
+          "settings": {
+           "section_subheading_icon": {
+            "value": "fas fa-bolt",
+            "library": "fa-solid"
+           },
+           "section_subheading": "About Us",
+           "section_title": "Our New Chapter: Connecting Students to Malta",
+           "design_layout_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           }
+          },
+          "elements": [],
+          "widgetType": "edcare_heading"
+         },
+         {
+          "id": "c7133df",
+          "elType": "widget",
+          "settings": {
+           "title": "<p>We are <a href=\"https://outreachrecruitment.net/\" style=\"color: blue;\">Outreach Recruitment</a>, a recruitment agency based in Malta, specializing in connecting talent with career opportunities.</p>\n\n<p>For years, we have built bridges between talent and companies. Today, we are excited to build a new one—helping students unlock their future by finding their perfect study opportunity in Malta.</p>",
+           "header_size": "p",
+           "typography_typography": "custom",
+           "typography_font_family": "Outfit",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+           },
+           "typography_line_height": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+           },
+           "_animation": "fadeInUp",
+           "_animation_delay": 500,
+           "title_color": "#3A3D3E"
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "8d02cab",
+          "elType": "widget",
+          "settings": {
+           "icon_list": [
+            {
+             "text": "Helping international students discover and secure their ideal study programs in Malta.",
+             "_id": "2958228"
+            },
+            {
+             "text": "Consolidate program, school, and destination options in one spot, making decisions straightforward and efficient.",
+             "_id": "4867802"
+            },
+            {
+             "text": "Expertly guide students, eliminating common mistakes and ensuring a smooth enrollment process.",
+             "_id": "2246db0"
+            }
+           ],
+           "space_between": {
+            "unit": "px",
+            "size": 10,
+            "sizes": []
+           },
+           "icon_typography_typography": "custom",
+           "icon_typography_font_family": "Outfit",
+           "icon_typography_font_size": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+           },
+           "icon_typography_font_weight": "500",
+           "text_color": "#162726",
+           "icon_self_align": "left",
+           "icon_self_vertical_align": "center",
+           "icon_vertical_offset": {
+            "unit": "px",
+            "size": 2,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "icon-list"
+         },
+         {
+          "id": "fb89a06",
+          "elType": "container",
+          "settings": {
+           "content_width": "full",
+           "flex_direction": "row",
+           "margin": {
+            "unit": "px",
+            "top": "15",
+            "right": "0",
+            "bottom": "15",
+            "left": "0",
+            "isLinked": false
+           },
+           "animation": "fadeInUp",
+           "animation_delay": 500
+          },
+          "elements": [
+           {
+            "id": "59e9122",
+            "elType": "container",
+            "settings": {
+             "content_width": "full",
+             "width": {
+              "unit": "%",
+              "size": 0,
+              "sizes": []
+             }
+            },
+            "elements": [],
+            "isInner": true
+           },
+           {
+            "id": "9fa2856",
+            "elType": "container",
+            "settings": {
+             "content_width": "full"
+            },
+            "elements": [
+             {
+              "id": "1e6f727",
+              "elType": "container",
+              "settings": {
+               "content_width": "full",
+               "flex_direction": "row",
+               "flex_align_items": "center",
+               "flex_gap": {
+                "column": "10",
+                "row": "10",
+                "isLinked": true,
+                "unit": "px",
+                "size": 10
+               }
+              },
+              "elements": [
+               {
+                "id": "5b067a0",
+                "elType": "container",
+                "settings": {
+                 "content_width": "full",
+                 "width": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                 },
+                 "min_height": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                 },
+                 "flex_justify_content": "center",
+                 "flex_align_items": "center",
+                 "border_border": "solid",
+                 "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                 },
+                 "border_color": "#E0E5EB",
+                 "border_radius": {
+                  "unit": "px",
+                  "top": "100",
+                  "right": "100",
+                  "bottom": "100",
+                  "left": "100",
+                  "isLinked": true
+                 },
+                 "width_mobile": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                 },
+                 "background_background": "classic",
+                 "background_color": "#FFFFFF",
+                 "box_shadow_box_shadow_type": "yes",
+                 "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 19,
+                  "spread": 0,
+                  "color": "rgba(12.999999999999998, 40, 37.999999999999986, 0.15)"
+                 }
+                },
+                "elements": [
+                 {
+                  "id": "8f8ad59",
+                  "elType": "widget",
+                  "settings": {
+                   "selected_icon": {
+                    "value": "fas fa-check",
+                    "library": "fa-solid"
+                   },
+                   "primary_color": "#07A698",
+                   "size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                   },
+                   "_padding": {
+                    "unit": "px",
+                    "top": "5",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                   },
+                   "_element_width": "initial",
+                   "_flex_size": "none",
+                   "_border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "1",
+                    "bottom": "1",
+                    "left": "1",
+                    "isLinked": true
+                   },
+                   "_border_color": "#FF0202"
+                  },
+                  "elements": [],
+                  "widgetType": "icon"
+                 }
+                ],
+                "isInner": true
+               },
+               {
+                "id": "9b59829",
+                "elType": "container",
+                "settings": {
+                 "content_width": "full"
+                },
+                "elements": [
+                 {
+                  "id": "2a45447",
+                  "elType": "widget",
+                  "settings": {
+                   "title": "Get Ready for Your Study Abroad Adventure!",
+                   "header_size": "p",
+                   "align": "left",
+                   "typography_typography": "custom",
+                   "typography_font_family": "Outfit",
+                   "typography_font_size": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                   },
+                   "typography_font_weight": "600",
+                   "title_color": "#162726"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                 }
+                ],
+                "isInner": true
+               }
+              ],
+              "isInner": true
+             }
+            ],
+            "isInner": true
+           }
+          ],
+          "isInner": true
+         },
+         {
+          "id": "42cc0a9",
+          "elType": "widget",
+          "settings": {
+           "button_text": "About Outreach Study",
+           "button_page_link": "71",
+           "button_icon_type": "image",
+           "_animation": "fadeInUp",
+           "_animation_delay": 500,
+           "button_subheading_text": "Download On The"
+          },
+          "elements": [],
+          "widgetType": "edcare_button"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "e0b7b87",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "flex_wrap_tablet": "wrap",
+       "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "padding_laptop": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "hs20001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "hs20002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs20003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "How It Works",
+       "section_title": "Your Path to Studying in Malta in 4 Steps",
+       "section_text_align": "center"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "hs20004",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap_tablet": "wrap"
+    },
+    "elements": [
+     {
+      "id": "chs20005",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "hs20005",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-comments",
+          "library": "fa-solid"
+         },
+         "view": "stacked",
+         "primary_color": "#442dfa",
+         "title_text": "1. Free Consultation",
+         "description_text": "Tell us your goals, budget and background. We answer your questions and explain your options.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "chs20006",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "hs20006",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-graduation-cap",
+          "library": "fa-solid"
+         },
+         "view": "stacked",
+         "primary_color": "#442dfa",
+         "title_text": "2. Choose Your Programme",
+         "description_text": "We help you compare English courses, diplomas and degrees and pick the right school.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "chs20007",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "hs20007",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-passport",
+          "library": "fa-solid"
+         },
+         "view": "stacked",
+         "primary_color": "#442dfa",
+         "title_text": "3. Application and Visa",
+         "description_text": "We help you prepare your documents, apply to your school and get ready for your visa and residence permit.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "chs20008",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "hs20008",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-plane-arrival",
+          "library": "fa-solid"
+         },
+         "view": "stacked",
+         "primary_color": "#442dfa",
+         "title_text": "4. Arrive in Malta",
+         "description_text": "We share practical advice on accommodation, living costs and settling into student life.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "hs20009",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs2000a",
+      "elType": "widget",
+      "widgetType": "button",
+      "settings": {
+       "text": "Book a Free Consultation",
+       "link": {
+        "url": "https://outreachstudy.eu/contact/",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "align": "center",
+       "size": "md",
+       "border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+       },
+       "background_color": "#442dfa",
+       "button_text_color": "#FFFFFF"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "bfba620",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "0",
+    "bottom": "120",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet_extra": {
+    "unit": "px",
+    "top": "80",
+    "right": "0",
+    "bottom": "80",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile_extra": {
+    "unit": "px",
+    "top": "70",
+    "right": "0",
+    "bottom": "70",
+    "left": "0",
+    "isLinked": false
+   },
+   "overflow": "hidden"
+  },
+  "elements": [
+   {
+    "id": "cf3c71f",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "8daa743",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "a96a953",
+        "elType": "widget",
+        "settings": {
+         "section_subheading_icon": {
+          "value": "fas fa-bolt",
+          "library": "fa-solid"
+         },
+         "section_subheading": "Programmes",
+         "section_title": "Find Your Programme in Malta",
+         "section_text_align": "center"
+        },
+        "elements": [],
+        "widgetType": "edcare_heading"
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "559416e",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "6997472",
+        "elType": "widget",
+        "settings": {
+         "slider_list": [
+          {
+           "_id": "pe2026a",
+           "slider_title": "Professional English Programme in Malta",
+           "slider_description": "A full-time English programme in Malta with an EU qualification, a residence permit and the right to work part-time.",
+           "slider_button_text": "View Programme",
+           "slider_button_link": {
+            "url": "https://outreachstudy.eu/study-english-in-malta/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "feature_list": [
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "12 months full-time, MQF Level 4, 48 ECTS",
+             "_id": "pe2026b"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Residence permit and part-time work rights",
+             "_id": "pe2026c"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Launch price €3,950 (standard €4,950)",
+             "_id": "pe2026d"
+            }
+           ],
+           "activeItemIndex": 1,
+           "service_slider_image": {
+            "url": "https://outreachstudy.eu/wp-content/uploads/2025/02/offer-img.png",
+            "id": 4508,
+            "size": "",
+            "alt": "International students studying together outdoors in Malta",
+            "source": "library"
+           }
+          },
+          {
+           "slider_title": "Health and Social Care",
+           "slider_description": "Prepares you for a rewarding career supporting individuals and communities through its Health and Social Care programs.",
+           "slider_button_text": "Apply Now",
+           "_id": "d62fcf7",
+           "feature_list": [
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "BSc (Hons) Health, Social Care and Wellbeing (Bachelor's)",
+             "_id": "c5bb101"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Master of Public Health (Master's)",
+             "_id": "09cec83"
+            }
+           ],
+           "activeItemIndex": 1,
+           "service_slider_image": {
+            "url": "https://outreachstudy.eu/wp-content/uploads/2025/05/about-img-6.png",
+            "id": 6644,
+            "size": "",
+            "alt": "Two students studying together on a laptop in a library",
+            "source": "library"
+           },
+           "slider_button_link": {
+            "url": "https://apply.outreachstudy.eu/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "slider_title": "Information Technology",
+           "slider_description": "Prepares you for a dynamic career building and securing the digital future through its Information Technology programs",
+           "slider_button_text": "Apply Now",
+           "feature_list": [
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Foundation Degree in Information Technology and Study Skills",
+             "_id": "c5bb101"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "BSc (Hons) Computer Science and Information Technology (Bachelor's)",
+             "_id": "09cec83"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "MSc Information Technology Management (Master's)",
+             "_id": "11b251c"
+            }
+           ],
+           "activeItemIndex": 1,
+           "service_slider_image": {
+            "url": "https://outreachstudy.eu/wp-content/uploads/2025/05/cta-img.png",
+            "id": 6602,
+            "size": "",
+            "alt": "Students studying together on a laptop in a café",
+            "source": "library"
+           },
+           "_id": "cb1f850",
+           "slider_button_link": {
+            "url": "https://apply.outreachstudy.eu/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "slider_title": "Business & Management",
+           "slider_description": "Prepares you for a career in leadership, management and entrepreneurship through its Business and Management programs.",
+           "slider_button_text": "Apply Now",
+           "feature_list": [
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Foundation Degree in Business Management and Study Skills",
+             "_id": "c5bb101"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Master of Business Administration (MBA)",
+             "_id": "11b251c"
+            }
+           ],
+           "activeItemIndex": 1,
+           "service_slider_image": {
+            "url": "https://outreachstudy.eu/wp-content/uploads/2025/05/popular-img-1.png",
+            "id": 6614,
+            "size": "",
+            "alt": "Students and teacher joining hands in a study group",
+            "source": "library"
+           },
+           "_id": "111b6a0",
+           "slider_button_link": {
+            "url": "https://apply.outreachstudy.eu/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "slider_title": "Learn English in 10 Weeks (Online)",
+           "slider_description": "Master the English language with our intensive online course and unlock new opportunities for your career and personal growth.",
+           "slider_button_text": "Apply Now",
+           "feature_list": [
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Structured Learning: 3 hours daily, Monday to Friday",
+             "_id": "c5bb101"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Evening Classes",
+             "_id": "11b251c"
+            },
+            {
+             "feature_icon": {
+              "value": "fas fa-check",
+              "library": "fa-solid"
+             },
+             "feature_text": "Learn from certified English teachers with years of experience",
+             "_id": "69c4470"
+            }
+           ],
+           "activeItemIndex": 1,
+           "service_slider_image": {
+            "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/group-3652-5.webp",
+            "id": 7240,
+            "size": "",
+            "alt": "Study English Online",
+            "source": "library"
+           },
+           "_id": "76e66e6",
+           "slider_button_link": {
+            "url": "https://apply.outreachstudy.eu/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          }
+         ],
+         "feature_list": []
+        },
+        "elements": [],
+        "widgetType": "edcare_service_slider"
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "554fecd",
+  "elType": "container",
+  "settings": {
+   "content_width": "full"
+  },
+  "elements": [
+   {
+    "id": "6b54c87",
+    "elType": "widget",
+    "settings": {
+     "shape_switch": "",
+     "brand_slider_list": [
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/1.png",
+        "id": 7245,
+        "alt": "Study in Malta",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "7a4f908"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/2.png",
+        "id": 7246,
+        "alt": "Study in Malta",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "340e144"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/5.png",
+        "id": 7249,
+        "alt": "Study in Malta",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "fbe922f"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/7.png",
+        "id": 7251,
+        "alt": "Study in France",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "fcfe445"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/6.png",
+        "id": 7250,
+        "alt": "Study in France",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "13314b2"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/4.png",
+        "id": 7248,
+        "alt": "",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "2e649bf"
+      },
+      {
+       "brand_slider_image": {
+        "url": "https://outreachstudy.eu/wp-content/uploads/2025/10/3.png",
+        "id": 7247,
+        "alt": "",
+        "source": "library",
+        "size": ""
+       },
+       "_id": "46e4d59"
+      }
+     ],
+     "design_layout_padding": {
+      "unit": "px",
+      "top": "0120",
+      "right": "0",
+      "bottom": "120",
+      "left": "0",
+      "isLinked": false
+     },
+     "design_layout_padding_tablet_extra": {
+      "unit": "px",
+      "top": "80",
+      "right": "0",
+      "bottom": "80",
+      "left": "0",
+      "isLinked": false
+     },
+     "design_layout_padding_mobile_extra": {
+      "unit": "px",
+      "top": "70",
+      "right": "0",
+      "bottom": "70",
+      "left": "0",
+      "isLinked": false
+     },
+     "design_layout_background": "#1553E0",
+     "design_style": "layout-3",
+     "brand_slider_background": "#FFFFFF"
+    },
+    "elements": [],
+    "widgetType": "edcare_brand_slider"
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "5cfc04d",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "0",
+    "bottom": "120",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_laptop": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet_extra": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F2F4F7"
+  },
+  "elements": [
+   {
+    "id": "c0d0974",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "cd44c6a",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "6e904cc",
+        "elType": "widget",
+        "settings": {
+         "section_subheading_icon": {
+          "value": "fas fa-bolt",
+          "library": "fa-solid"
+         },
+         "section_subheading": "Study in Malta",
+         "section_title": "Why should you choose to study in Malta",
+         "section_text_align": "center",
+         "_background_gradient_position_widescreen": "center center",
+         "_background_gradient_position_laptop": "center center",
+         "_background_gradient_position_tablet_extra": "center center",
+         "_background_gradient_position_mobile_extra": "center center",
+         "_background_hover_gradient_position_widescreen": "center center",
+         "_background_hover_gradient_position_laptop": "center center",
+         "_background_hover_gradient_position_tablet_extra": "center center",
+         "_background_hover_gradient_position_mobile_extra": "center center"
+        },
+        "elements": [],
+        "widgetType": "edcare_heading"
+       },
+       {
+        "id": "5ab2de6",
+        "elType": "widget",
+        "settings": {
+         "tab_list": [
+          {
+           "tab_active": "active",
+           "tab_title": "High quality education system",
+           "tab_description": "Experience a high-quality education system with top institutions, skilled educators, and globally recognized programs.",
+           "_id": "16ab06c",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-1.png",
+            "id": 4675,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4682",
+           "tab_icon": {
+            "value": "fal fa-book-reader",
+            "library": "edcare-core-fontawesome-icons"
+           }
+          },
+          {
+           "tab_title": "Work Part Time During Your Studies",
+           "tab_description": "Study and work part-time with flexible opportunities to gain experience and support your living costs.",
+           "_id": "07c7109",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-2.png",
+            "id": 4676,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4694",
+           "tab_icon": {
+            "value": "far fa-handshake",
+            "library": "fa-regular"
+           }
+          },
+          {
+           "tab_title": "English is an official national language",
+           "tab_description": "English, as Malta’s official language, makes studying, working, and living easier while enhancing your language skills.",
+           "_id": "77464ac",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-3.png",
+            "id": 4677,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4697",
+           "tab_icon": {
+            "value": "fas fa-language",
+            "library": "fa-solid"
+           }
+          },
+          {
+           "tab_title": "Malta is a Schengen Zone country",
+           "tab_description": "Malta, a Schengen Zone country, offers easy travel access across Europe for students and visitors.",
+           "_id": "031450e",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-4.png",
+            "id": 4678,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4701",
+           "tab_icon": {
+            "value": "fas fa-globe-europe",
+            "library": "fa-solid"
+           }
+          },
+          {
+           "tab_title": "Fast Visa Process",
+           "tab_description": "Our guidance helps you navigate Malta’s streamlined and efficient student visa process, ensuring a quick and successful application.",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-4.png",
+            "id": 4678,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4701",
+           "tab_icon": {
+            "value": "fas fa-passport",
+            "library": "fa-solid"
+           },
+           "_id": "bb95123"
+          },
+          {
+           "tab_title": "9 Month Post Study Visa Extension",
+           "tab_description": "Launch your career in Malta after you graduate. This visa extension gives you nine months to stay in Malta to seek employment and gain international experience.",
+           "tab_image_icon": {
+            "url": "https://wp.rrdevs.net/edcare/wp-content/uploads/2025/03/offer-4.png",
+            "id": 4678,
+            "size": "",
+            "alt": "",
+            "source": "library"
+           },
+           "template": "4701",
+           "tab_icon": {
+            "value": "fas fa-paper-plane",
+            "library": "fa-solid"
+           },
+           "_id": "bf5073a"
+          }
+         ],
+         "advanced_tab_layout_bottom_spacing": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+         }
+        },
+        "elements": [],
+        "widgetType": "edcare_advanced_tab"
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "hs30001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#F2F4F7"
+  },
+  "elements": [
+   {
+    "id": "hs30002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs30003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "FAQ",
+       "section_title": "Questions About Studying in Malta",
+       "section_text_align": "center"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "hs30004",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "width": {
+      "unit": "%",
+      "size": 80,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "align_self": "center"
+    },
+    "elements": [
+     {
+      "id": "hs30005",
+      "elType": "widget",
+      "widgetType": "accordion",
+      "settings": {
+       "tabs": [
+        {
+         "tab_title": "Do I need a visa to study in Malta?",
+         "tab_content": "<p>Students from the EU do not need a visa. Most students from outside the EU need a student visa and a residence permit for courses longer than 90 days. Requirements depend on your nationality and your course, and we help you prepare your application.</p>",
+         "_id": "hsq0000"
+        },
+        {
+         "tab_title": "Can I work while studying in Malta?",
+         "tab_content": "<p>Yes. Non-EU students with a valid student residence permit can usually work up to 20 hours per week. Read our <a href=\"https://outreachstudy.eu/work-while-studying-in-malta/\">guide to working while studying in Malta</a> for the rules and job types.</p>",
+         "_id": "hsq0001"
+        },
+        {
+         "tab_title": "How much does it cost to study in Malta?",
+         "tab_content": "<p>It depends on the programme and school. For example, our 12-month Professional English Programme has a launch price of €3,950. See our <a href=\"https://outreachstudy.eu/studying-in-malta-on-a-budget-a-guide-to-affordability-in-malta/\">guide to the cost of studying in Malta</a> for living costs.</p>",
+         "_id": "hsq0002"
+        },
+        {
+         "tab_title": "What level of English do I need?",
+         "tab_content": "<p>English courses accept all levels. Diplomas and degrees usually ask for proof of English, such as an IELTS score or an equivalent test. We tell you the exact level your chosen programme needs.</p>",
+         "_id": "hsq0003"
+        },
+        {
+         "tab_title": "Can I stay in Malta after I graduate?",
+         "tab_content": "<p>Eligible graduates can apply for a 9-month post-study visa extension to look for work in Malta and gain international experience.</p>",
+         "_id": "hsq0004"
+        },
+        {
+         "tab_title": "How does Outreach Study help me?",
+         "tab_content": "<p>We give you a free consultation, help you choose a programme and school, support your application, visa and residence permit, and give practical advice for your arrival in Malta.</p>",
+         "_id": "hsq0005"
+        }
+       ]
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "3443e7c",
+  "elType": "container",
+  "settings": {
+   "content_width": "full",
+   "padding_tablet_extra": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "_title": "Blog"
+  },
+  "elements": [
+   {
+    "id": "cbdc166",
+    "elType": "widget",
+    "settings": {
+     "design_style": "layout-7",
+     "section_subheading_icon": {
+      "value": "fas fa-bolt",
+      "library": "fa-solid"
+     },
+     "section_subheading": "News & Blogs",
+     "section_title": "Latest News Updates",
+     "post_content": "yes",
+     "post_content_limit": "14",
+     "btn_text": "Read More"
+    },
+    "elements": [],
+    "widgetType": "edcare_blog_post"
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "hs40001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "background_color": "#442dfa"
+  },
+  "elements": [
+   {
+    "id": "hs40002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "hs40003",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+       "title": "Ready to Study in Malta?",
+       "header_size": "h2",
+       "align": "center",
+       "title_color": "#FFFFFF"
+      },
+      "elements": []
+     },
+     {
+      "id": "hs40004",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "settings": {
+       "align": "center",
+       "text_color": "#FFFFFF",
+       "editor": "<p>Book a free consultation with our team in Malta. We answer your questions and help you choose the right programme.</p>"
+      },
+      "elements": []
+     },
+     {
+      "id": "hs40005",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "flex_direction": "row",
+       "flex_justify_content": "center",
+       "flex_wrap": "wrap",
+       "flex_gap": {
+        "column": "16",
+        "row": "16",
+        "isLinked": true,
+        "unit": "px",
+        "size": 16
+       }
+      },
+      "elements": [
+       {
+        "id": "hs40006",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Book a Free Consultation",
+         "link": {
+          "url": "https://outreachstudy.eu/contact/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "align": "center",
+         "size": "md",
+         "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+         },
+         "background_color": "#FFFFFF",
+         "button_text_color": "#442dfa",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#442dfa"
+        },
+        "elements": []
+       },
+       {
+        "id": "hs40007",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Call +356 7720 0984",
+         "link": {
+          "url": "tel:+35677200984",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "align": "center",
+         "size": "md",
+         "background_color": "rgba(0,0,0,0)",
+         "button_text_color": "#FFFFFF",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "border_color": "#FFFFFF",
+         "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+         },
+         "selected_icon": {
+          "value": "fas fa-phone-alt",
+          "library": "fa-solid"
+         },
+         "icon_indent": {
+          "unit": "px",
+          "size": 8,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ }
+]

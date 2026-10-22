@@ -1,0 +1,390 @@
+[
+ {
+  "id": "ab10001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "ab10002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_align_items": "center",
+     "flex_wrap_tablet": "wrap"
+    },
+    "elements": [
+     {
+      "id": "ab10003",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 45
+       },
+       "width_tablet": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       }
+      },
+      "elements": [
+       {
+        "id": "ab10004",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+         "image": {
+          "id": 4508,
+          "url": "https://outreachstudy.eu/wp-content/uploads/2025/02/offer-img.png",
+          "alt": "International students studying together outdoors in Malta",
+          "source": "library"
+         },
+         "image_size": "full"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "ab10005",
+      "elType": "container",
+      "settings": {
+       "content_width": "full",
+       "width": {
+        "unit": "%",
+        "size": 55
+       },
+       "width_tablet": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "40",
+        "isLinked": false
+       },
+       "padding_tablet": {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "ab10006",
+        "elType": "widget",
+        "widgetType": "edcare_heading",
+        "settings": {
+         "section_subheading_icon": {
+          "value": "fas fa-bolt",
+          "library": "fa-solid"
+         },
+         "section_subheading": "About Outreach Study",
+         "section_title": "Helping International Students Study in Malta",
+         "section_text_align": "left"
+        },
+        "elements": []
+       },
+       {
+        "id": "ab10007",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+         "editor": "<p>Outreach Study helps international students who want to study in Malta and Europe. We guide you from your first question to your first day in class: choosing the right programme, preparing your application, and getting support with your student visa and residence permit.</p><p>Malta is an English-speaking EU country with a Mediterranean climate, internationally recognised qualifications and lower living costs than many other European study destinations. Our team in Malta knows the local schools, the application process and student life on the island, so you can plan your studies with confidence.</p>"
+        },
+        "elements": []
+       },
+       {
+        "id": "ab10008",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+         "text": "Start Your Application",
+         "link": {
+          "url": "https://apply.outreachstudy.eu/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "ab20001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "background_background": "classic",
+   "background_color": "#F2F4F7",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "ab20002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "ab20003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "What We Do",
+       "section_title": "How Outreach Study Helps You",
+       "section_text_align": "center"
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   },
+   {
+    "id": "ab20004",
+    "elType": "container",
+    "settings": {
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap_tablet": "wrap"
+    },
+    "elements": [
+     {
+      "id": "cab20005",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab20005",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-graduation-cap",
+          "library": "fa-solid"
+         },
+         "title_text": "Choose the Right Programme",
+         "description_text": "We help you compare English courses, diplomas and degree programmes in Malta and pick the one that fits your goals and budget.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "cab20006",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab20006",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-passport",
+          "library": "fa-solid"
+         },
+         "title_text": "Application & Visa Support",
+         "description_text": "We help you prepare your documents, apply to your school and get ready for your student visa and residence permit application.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "cab20007",
+      "elType": "container",
+      "settings": {
+       "content_width": "full"
+      },
+      "elements": [
+       {
+        "id": "ab20007",
+        "elType": "widget",
+        "widgetType": "icon-box",
+        "settings": {
+         "selected_icon": {
+          "value": "fas fa-plane-arrival",
+          "library": "fa-solid"
+         },
+         "title_text": "Arrival & Student Life",
+         "description_text": "We share practical advice on accommodation, living costs, working while you study and settling into life in Malta.",
+         "title_size": "h3"
+        },
+        "elements": []
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "ab30001",
+  "elType": "container",
+  "settings": {
+   "flex_direction": "column",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "12",
+    "bottom": "120",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "80",
+    "right": "12",
+    "bottom": "80",
+    "left": "12",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "70",
+    "right": "12",
+    "bottom": "70",
+    "left": "12",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "ab30002",
+    "elType": "container",
+    "settings": {
+     "content_width": "full"
+    },
+    "elements": [
+     {
+      "id": "ab30003",
+      "elType": "widget",
+      "widgetType": "edcare_heading",
+      "settings": {
+       "section_subheading_icon": {
+        "value": "fas fa-bolt",
+        "library": "fa-solid"
+       },
+       "section_subheading": "Contact Us",
+       "section_title": "Talk to Our Team in Malta",
+       "section_text_align": "center"
+      },
+      "elements": []
+     },
+     {
+      "id": "ab30004",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "settings": {
+       "align": "center",
+       "editor": "<p><strong>Address:</strong> Triq Ninu Cremona, L-Iklin PLA 1576, Malta<br><strong>Phone:</strong> <a href=\"tel:+35677200984\">+356 7720 0984</a><br><strong>Email:</strong> <a href=\"mailto:study@outreachrecruitment.net\">study@outreachrecruitment.net</a></p><p>Follow us: <a href=\"https://www.facebook.com/profile.php?id=61582445649555\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/outreachstudy\" target=\"_blank\" rel=\"noopener\">Instagram</a> · <a href=\"https://www.tiktok.com/@outreachstudy\" target=\"_blank\" rel=\"noopener\">TikTok</a></p>"
+      },
+      "elements": []
+     },
+     {
+      "id": "ab30005",
+      "elType": "widget",
+      "widgetType": "button",
+      "settings": {
+       "text": "Contact Us",
+       "align": "center",
+       "link": {
+        "url": "https://outreachstudy.eu/contact/",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       }
+      },
+      "elements": []
+     }
+    ],
+    "isInner": true
+   }
+  ],
+  "isInner": false
+ }
+]

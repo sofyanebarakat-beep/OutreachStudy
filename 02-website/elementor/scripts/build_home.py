@@ -64,8 +64,8 @@ by_id = {e["id"]: e for e in walk(d)}
 # standard-Elementor layout. This avoids slider controls for a single message
 # and gives the primary offer, CTA and trust signals a clear hierarchy.
 hero_styles = """<style>
-.os-hero-kicker .elementor-heading-title{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #c9e9dc;border-radius:999px;background:#fff;color:#24463f;letter-spacing:.08em;text-transform:uppercase}
-.os-hero-kicker .elementor-heading-title:before{content:'';width:8px;height:8px;border-radius:50%;background:#28a77a;box-shadow:0 0 0 5px #ddf6ec}
+.os-hero-kicker .elementor-heading-title{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #e9c3b9;border-radius:999px;background:#fff;color:#6f281b;letter-spacing:.08em;text-transform:uppercase}
+.os-hero-kicker .elementor-heading-title:before{content:'';width:8px;height:8px;border-radius:50%;background:#b7412a;box-shadow:0 0 0 5px #f7e3de}
 .os-hero-copy strong{color:#442dfa;font-weight:700}
 .os-hero-actions .elementor-button{box-shadow:0 10px 24px rgba(68,45,250,.18);transition:transform .2s ease,box-shadow .2s ease}
 .os-hero-actions .elementor-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(68,45,250,.25)}
@@ -94,7 +94,7 @@ hero_left = inner("hr10002", [
         button("hr10008", "Explore Programmes", "https://outreachstudy.eu/our-programs/", primary=False, align="left"),
     ], flex_direction="row", flex_wrap="wrap", flex_gap={"column": "14", "row": "12", "isLinked": False, "unit": "px"}, css_classes="os-hero-actions"),
     w("hr10009", "icon-list", view="inline", css_classes="os-hero-trust", space_between={"unit": "px", "size": 18, "sizes": []},
-      icon_color="#28A77A", text_color="#34423F", typography_typography="custom", typography_font_size={"unit": "px", "size": 14, "sizes": []},
+      icon_color="#B7412A", text_color="#34423F", typography_typography="custom", typography_font_size={"unit": "px", "size": 14, "sizes": []},
       _margin={"unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": False}, icon_list=[
           {"text": "Free first consultation", "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": "hrt001"},
           {"text": "Visa guidance", "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": "hrt002"},

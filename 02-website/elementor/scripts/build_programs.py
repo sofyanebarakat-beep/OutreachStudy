@@ -16,7 +16,7 @@ def programme_card(i, label, title, description, facts, url, featured=False):
         w(i + "c", "text-editor", editor=f"<p>{description}</p>", text_color="#52605D",
           typography_typography="custom", typography_font_size={"unit": "px", "size": 16, "sizes": []},
           typography_line_height={"unit": "em", "size": 1.65, "sizes": []}),
-        w(i + "d", "icon-list", icon_color="#28A77A", text_color="#263936", space_between={"unit": "px", "size": 14, "sizes": []},
+        w(i + "d", "icon-list", icon_color="#B7412A", text_color="#263936", space_between={"unit": "px", "size": 14, "sizes": []},
           icon_list=[{"text": fact, "selected_icon": {"value": "fas fa-check-circle", "library": "fa-solid"}, "_id": i + str(n)} for n, fact in enumerate(facts)]),
         button(i + "e", "View Programme" if featured else "Apply Now", url, icon="fas fa-arrow-right", align="left"),
     ], width={"unit": "%", "size": 48.5, "sizes": []}, width_mobile={"unit": "%", "size": 100, "sizes": []},

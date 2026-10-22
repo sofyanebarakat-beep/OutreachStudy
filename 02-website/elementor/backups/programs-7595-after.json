@@ -262,7 +262,7 @@
         "elType": "widget",
         "widgetType": "icon-list",
         "settings": {
-         "icon_color": "#28A77A",
+         "icon_color": "#B7412A",
          "text_color": "#263936",
          "space_between": {
           "unit": "px",
@@ -477,7 +477,7 @@
         "elType": "widget",
         "widgetType": "icon-list",
         "settings": {
-         "icon_color": "#28A77A",
+         "icon_color": "#B7412A",
          "text_color": "#263936",
          "space_between": {
           "unit": "px",
